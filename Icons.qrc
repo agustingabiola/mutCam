@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icon|s">
+        <file>icons/logo.png</file>
+        <file>icons/logogrande.png</file>
+        <file>icons/logoLion.png</file>
+        <file>icons/logoNinja.png</file>
+        <file>icons/logoTruck.png</file>
+    </qresource>
+</RCC>
