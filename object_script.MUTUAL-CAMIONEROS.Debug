@@ -18,6 +18,7 @@ INPUT(
 ./debug/printcierre.o
 ./debug/qstringmoney.o
 ./debug/dialogespera.o
+./debug/printbusquedacompras.o
 ./debug/moc_mainwindow.o
 ./debug/moc_bd.o
 ./debug/moc_socionuevo.o
@@ -34,5 +35,6 @@ INPUT(
 ./debug/moc_grupoflia.o
 ./debug/moc_printcierre.o
 ./debug/moc_dialogespera.o
+./debug/moc_printbusquedacompras.o
 ./debug/qrc_Icons.o
 );

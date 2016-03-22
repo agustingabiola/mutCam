@@ -111,10 +111,6 @@ void CompraBuscar::on_pushButtonBuscarPrestador_clicked(){
     setTableView();
 }
 
-
-void CompraBuscar::on_pushButtonSeleccionar_clicked(){
-}
-
 void CompraBuscar::on_pushButtonEliminar_clicked(){
     int row=ui->tableView->selectionModel()->currentIndex().row();
     idCompra=model->data(model->index(row,0), Qt::DisplayRole).toString();
@@ -158,11 +154,19 @@ void CompraBuscar::keyPressEvent(QKeyEvent * event){
     switch (event->key()){
     case Qt::Key_Escape : close();
         break;
-    case Qt::Key_Return : on_pushButtonSeleccionar_clicked();
+    case Qt::Key_Return : on_pushButtonImprimir_clicked();
         break;
     case Qt::Key_Up : ui->tableView->selectRow(ui->tableView->selectionModel()->currentIndex().row()-1);
         break;
     case Qt::Key_Down : ui->tableView->selectRow(ui->tableView->selectionModel()->currentIndex().row()+1);
         break;
     }
+}
+
+void CompraBuscar::on_pushButtonImprimir_clicked()
+{
+    QString nota = "    Compras entre " + ui->dateEditInicio->date().toString("dd-MM-yyyy") + " y \n"
+            + ui->dateEditFinal->date().toString("dd-MM-yyyy");
+    PrintBusquedaCompras *p = new PrintBusquedaCompras(this, nota);
+    p->close();
 }

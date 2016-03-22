@@ -6,6 +6,7 @@
 #include "bd.h"
 #include "sociobuscar.h"
 #include "prestadorbuscar.h"
+#include "printbusquedacompras.h"
 
 namespace Ui {class CompraBuscar;}
 
@@ -21,9 +22,8 @@ private slots:
     void on_pushButtonBuscarSocio_clicked();
     void on_pushButtonEliminar_clicked();
     void comboBox();
-
-    void on_pushButtonSeleccionar_clicked();
     void on_pushButtonCancelar_clicked();
+    void on_pushButtonImprimir_clicked();
 
 private:
     Ui::CompraBuscar *ui;

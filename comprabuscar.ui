@@ -487,7 +487,7 @@
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="pushButtonSeleccionar">
+     <widget class="QPushButton" name="pushButtonImprimir">
       <property name="minimumSize">
        <size>
         <width>140</width>
@@ -500,7 +500,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Seleccionar</string>
+       <string>Imprimir</string>
       </property>
       <property name="autoDefault">
        <bool>true</bool>
