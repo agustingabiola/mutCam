@@ -44,6 +44,7 @@ public:
     static bool existeNombrePrestador(QString nombre);
 
     static bool agregarCompra();
+    static void actualizarCompra();
     static void buscarCompra(QString busqueda);
     static void eliminarCompra();
 

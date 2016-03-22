@@ -19,6 +19,7 @@ INPUT(
 ./release/qstringmoney.o
 ./release/dialogespera.o
 ./release/printbusquedacompras.o
+./release/compraeditar.o
 ./release/moc_mainwindow.o
 ./release/moc_bd.o
 ./release/moc_socionuevo.o
@@ -36,5 +37,6 @@ INPUT(
 ./release/moc_printcierre.o
 ./release/moc_dialogespera.o
 ./release/moc_printbusquedacompras.o
+./release/moc_compraeditar.o
 ./release/qrc_Icons.o
 );

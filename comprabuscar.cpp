@@ -30,7 +30,7 @@ CompraBuscar::CompraBuscar(QWidget *parent)
     styleSheet = "QTableView::item:selected{ background-color: lightblue; color: black;} ";
     ui->tableView->setStyleSheet(styleSheet);
     ui->tableView->horizontalHeader()->setResizeMode(QHeaderView::Fixed);
-    connect(ui->tableView, SIGNAL(doubleClicked(QModelIndex)), this, SLOT(on_pushButtonSeleccionar_clicked()));
+    connect(ui->tableView, SIGNAL(doubleClicked(QModelIndex)), this, SLOT(editarCompra()));
     connect(ui->comboBox, SIGNAL(currentIndexChanged(int)), this, SLOT(comboBox()));
     connect(ui->dateEditInicio,SIGNAL(dateChanged(QDate)), this, SLOT(comboBox()));
     connect(ui->dateEditFinal,SIGNAL(dateChanged(QDate)), this, SLOT(comboBox()));
@@ -115,11 +115,7 @@ void CompraBuscar::on_pushButtonEliminar_clicked(){
     int row=ui->tableView->selectionModel()->currentIndex().row();
     idCompra=model->data(model->index(row,0), Qt::DisplayRole).toString();
     if (idCompra!=INVALIDO){
-        idSocio=model->data(model->index(row,1), Qt::DisplayRole).toString();
-        socio.nombre=model->data(model->index(row,2), Qt::DisplayRole).toString();
-        prestador.nombre=model->data(model->index(row,4), Qt::DisplayRole).toString();
-        compra.monto=model->data(model->index(row,5), Qt::DisplayRole).toString();
-        compra.cantcuotas=model->data(model->index(row,6), Qt::DisplayRole).toString();
+        cargarCompra(row);
         QMessageBox::StandardButton reply;
         reply=QMessageBox::information(this, "Desea Continuar?"
                                   , "Si continua se borrara la COMPRA/PRESTAMO seleccionado PERMANENTEMENTE. \n"
@@ -169,4 +165,31 @@ void CompraBuscar::on_pushButtonImprimir_clicked()
             + ui->dateEditFinal->date().toString("dd-MM-yyyy");
     PrintBusquedaCompras *p = new PrintBusquedaCompras(this, nota);
     p->close();
+}
+
+void CompraBuscar::cargarCompra(int row) {
+    idSocio=model->data(model->index(row,1), Qt::DisplayRole).toString();
+    socio.nombre=model->data(model->index(row,2), Qt::DisplayRole).toString();
+    prestador.nombre=model->data(model->index(row,4), Qt::DisplayRole).toString();
+    compra.monto=model->data(model->index(row,5), Qt::DisplayRole).toString();
+    compra.cantcuotas=model->data(model->index(row,6), Qt::DisplayRole).toString();
+    compra.cuotaact = model->data(model->index(row,7), Qt::DisplayRole).toString();
+    compra.tipo = model->data(model->index(row,8), Qt::DisplayRole).toString();
+    compra.observaciones = model->data(model->index(row,9), Qt::DisplayRole).toString();
+    compra.fechamodificacion = model->data(model->index(row,11), Qt::DisplayRole).toString();
+}
+
+void CompraBuscar::editarCompra() {
+    int row=ui->tableView->selectionModel()->currentIndex().row();
+    idCompra=model->data(model->index(row,0), Qt::DisplayRole).toString();
+    idPrestador = model->data(model->index(row,3), Qt::DisplayRole).toString();
+    cargarCompra(row);
+    compraEditar = new CompraEditar();
+    connect(compraEditar, SIGNAL(compraEditarTerminado()), this, SLOT(repopularModelo()));
+    compraEditar->exec();
+}
+
+void CompraBuscar::repopularModelo()
+{
+    setTableView();
 }

@@ -7,6 +7,7 @@
 #include "sociobuscar.h"
 #include "prestadorbuscar.h"
 #include "printbusquedacompras.h"
+#include "compraeditar.h"
 
 namespace Ui {class CompraBuscar;}
 
@@ -24,17 +25,21 @@ private slots:
     void comboBox();
     void on_pushButtonCancelar_clicked();
     void on_pushButtonImprimir_clicked();
+    void editarCompra();
+    void repopularModelo();
 
 private:
     Ui::CompraBuscar *ui;
     SocioBuscar *searchSocio;
     PrestadorBuscar *searchPrestador;
+    CompraEditar *compraEditar;
 
     bool socioSeleccionado;
     bool prestadorSeleccionado;
 
     void setTableView();
     void keyPressEvent(QKeyEvent * event);
+    void cargarCompra(int row);
 };
 
 #endif // COMPRABUSCAR_H

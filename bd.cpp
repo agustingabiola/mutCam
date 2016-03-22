@@ -586,6 +586,22 @@ bool BD::agregarCompra(){
     return b;
 }
 
+void BD::actualizarCompra()
+{
+    instruccion="UPDATE COMPRAS SET ";
+    instruccion.append("  idsocio='"+idSocio+"'");
+    instruccion.append(", idprestador='"+idPrestador+"'");
+    instruccion.append(", monto='"+compra.monto+"'");
+    instruccion.append(", cantcuota="+compra.cantcuotas);
+    instruccion.append(", cuotaact="+compra.cuotaact);
+    instruccion.append(", tipo='"+compra.tipo+"'");
+    instruccion.append(", observaciones='"+compra.observaciones+"'");
+    instruccion.append(",  terminado="+compra.terminado);
+    instruccion.append(" WHERE idcompra='"+idCompra+"'");
+    BD::query.prepare(instruccion);
+    ejecutar("Actualizar Prestador");
+}
+
 void BD::buscarCompra(QString busqueda){
     qDebug()<<busqueda;
     model->clear();
