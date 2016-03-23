@@ -19,6 +19,7 @@
 #include "prestadornuevo.h"
 #include "prestadorbuscar.h"
 #include "prestadoreditar.h"
+#include "prestadoressaldos.h"
 
 #include "compranuevo.h"
 #include "comprabuscar.h"
@@ -66,6 +67,8 @@ private slots:
 
     void on_actionGenerar_Informe_Para_Empresa_del_ultimo_cierre_mensual_triggered();
 
+    void on_actionConsultar_Saldo_deudor_triggered();
+
 private:
     Ui::MainWindow *ui;
 
@@ -86,6 +89,7 @@ private:
     PrestadorNuevo *prestadorNuevo;
     PrestadorBuscar *prestadorBuscar;
     PrestadorEditar *prestadorEditar;
+    PrestadoresSaldos *prestadoresSaldos;
 
     CompraNuevo *compraNuevo;
     CompraBuscar *compraBuscar;

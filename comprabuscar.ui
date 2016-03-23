@@ -62,9 +62,9 @@
   <widget class="QTableView" name="tableView">
    <property name="geometry">
     <rect>
-     <x>0</x>
+     <x>10</x>
      <y>150</y>
-     <width>1300</width>
+     <width>1274</width>
      <height>500</height>
     </rect>
    </property>
@@ -76,7 +76,7 @@
    </property>
    <property name="minimumSize">
     <size>
-     <width>1300</width>
+     <width>1250</width>
      <height>500</height>
     </size>
    </property>

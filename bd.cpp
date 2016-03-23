@@ -531,6 +531,14 @@ bool BD::existeNombrePrestador(QString nombre){
     return b;
 }
 
+void BD::buscarSaldoPrestadores(QString busqueda)
+{
+    model->clear();
+    model->setQuery("SELECT p.idprestador, p.razon_social, (s.nombre || ' ' || s.apellido) AS nombre, c.idcompra, (c.cantcuota - c.cuotaact + 1) AS cuotasadeudadas, c.monto "
+                    " FROM prestadores p JOIN compras c ON c.idprestador=p.idprestador JOIN socios s ON c.idsocio=s.idsocio "
+                    " WHERE p.idprestador IN (SELECT idprestador FROM prestadores " + busqueda+ ") AND c.terminado=0 ORDER BY (nombre)", BD::db);
+}
+
 
 /*******************************  FIN PRESTADORES  *******************************/
 

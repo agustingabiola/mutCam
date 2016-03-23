@@ -671,6 +671,8 @@
     </property>
     <addaction name="actionNuevo_Prestador"/>
     <addaction name="actionEditar_Prestador"/>
+    <addaction name="separator"/>
+    <addaction name="actionConsultar_Saldo_deudor"/>
    </widget>
    <widget class="QMenu" name="menuCompras">
     <property name="font">
@@ -792,6 +794,11 @@
   <action name="actionGenerar_Informe_Para_Empresa_del_ultimo_cierre_mensual">
    <property name="text">
     <string>Generar Informe de Empresa</string>
+   </property>
+  </action>
+  <action name="actionConsultar_Saldo_deudor">
+   <property name="text">
+    <string>Consultar Saldo Deudor</string>
    </property>
   </action>
  </widget>

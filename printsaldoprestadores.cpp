@@ -1,13 +1,12 @@
-#include "printbusquedacompras.h"
-#include "ui_printbusquedacompras.h"
-#include <QDebug>
-PrintBusquedaCompras::PrintBusquedaCompras(QWidget *parent, QString nota) :
+#include "printsaldoprestadores.h"
+#include "ui_printsaldoprestadores.h"
+
+PrintSaldoPrestadores::PrintSaldoPrestadores(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::PrintBusquedaCompras)
+    ui(new Ui::PrintSaldoPrestadores)
 {
     ui->setupUi(this);
 
-    ui->labelNotas->setText(nota);
     ui->labelFecha->setText("FECHA: " + QDate::currentDate().toString("dd/MM/yy"));
 
     int hojas=1;
@@ -15,26 +14,20 @@ PrintBusquedaCompras::PrintBusquedaCompras(QWidget *parent, QString nota) :
         model->fetchMore();
     }
     int rowCount= model->rowCount();
-    int maxRowsPerPage = 27;
-    int count=maxRowsPerPage;
+    int count=27;
     while (count<rowCount){
-        count=count+maxRowsPerPage;
+        count=count+27;
         hojas=hojas+1;
     }
     hoja=1;
     hojamax=QString::number(hojas);
     ui->labelHoja->setText("Hoja 1 de "+hojamax);
 
-    ui->tableImpresion->setColumnWidth(0,60);
-    ui->tableImpresion->setColumnWidth(1,160);
-    ui->tableImpresion->setColumnWidth(2,160);
-    ui->tableImpresion->setColumnWidth(3,80);
-    ui->tableImpresion->setColumnWidth(4,70);
-    ui->tableImpresion->setColumnWidth(5,70);
-    ui->tableImpresion->setColumnWidth(6,70);
-    ui->tableImpresion->setColumnWidth(7,110);
-    ui->tableImpresion->setColumnWidth(8,91);
-    ui->tableImpresion->setColumnWidth(9,91);
+    ui->tableImpresion->setColumnWidth(0,300);
+    ui->tableImpresion->setColumnWidth(1,300);
+    ui->tableImpresion->setColumnWidth(2,100);
+    ui->tableImpresion->setColumnWidth(3,120);
+    ui->tableImpresion->setColumnWidth(4,120);
     QString styleSheet = "QHeaderView::section {"
                          "spacing: 5px;"
                          "height: 23px;"
@@ -45,11 +38,12 @@ PrintBusquedaCompras::PrintBusquedaCompras(QWidget *parent, QString nota) :
                          "text-align: right;"
                          "font-family: arialblack;"
                          "font: bold 12px;"
-                         "font-size: 12px; }";
+                         "font-size: 10px; }";
     ui->tableImpresion->horizontalHeader()->setStyleSheet(styleSheet);
 
     int j=0;
     int i=0;
+    double total = 0;
     QTableWidgetItem *item;
     printer.setOrientation(QPrinter::Landscape);
     QPainter painter(&printer);
@@ -57,49 +51,38 @@ PrintBusquedaCompras::PrintBusquedaCompras(QWidget *parent, QString nota) :
         QSqlRecord row = model->record(j);
         ui->tableImpresion->insertRow(i);
         item = new QTableWidgetItem(row.value(1).toString());
-        item->setTextAlignment(Qt::AlignRight);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
         ui->tableImpresion->setItem(i, 0, item);
         item = new QTableWidgetItem(row.value(2).toString());
-        item->setTextAlignment(Qt::AlignLeft);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
         ui->tableImpresion->setItem(i, 1, item);
-        item = new QTableWidgetItem(row.value(4).toString());
-        item->setTextAlignment(Qt::AlignLeft);
+        item = new QTableWidgetItem(row.value(3).toString());
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
         ui->tableImpresion->setItem(i, 2, item);
-        item = new QTableWidgetItem(row.value(5).toString());
+        item = new QTableWidgetItem(row.value(4).toString());
         item->setTextAlignment(Qt::AlignRight);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
         ui->tableImpresion->setItem(i, 3, item);
-        item = new QTableWidgetItem(row.value(6).toString());
+        item = new QTableWidgetItem(row.value(5).toString());
         item->setTextAlignment(Qt::AlignRight);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
         ui->tableImpresion->setItem(i, 4, item);
-        item = new QTableWidgetItem(row.value(7).toString());
-        item->setTextAlignment(Qt::AlignRight);
-        item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 5, item);
-        item = new QTableWidgetItem(row.value(8).toString());
-        item->setTextAlignment(Qt::AlignRight);
-        item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 6, item);
-        item = new QTableWidgetItem(row.value(9).toString());
-        item->setTextAlignment(Qt::AlignRight);
-        item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 7, item);
-        item = new QTableWidgetItem(row.value(10).toString());
-        item->setTextAlignment(Qt::AlignRight);
-        item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 8, item);
-        item = new QTableWidgetItem(row.value(11).toString());
-        item->setTextAlignment(Qt::AlignRight);
-        item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 9, item);
+        total += row.value(5).toDouble();
         j++;
         i++;
-        if (i==maxRowsPerPage){
+        if (i==27){
             i=0;
+            if (j == rowCount) {
+                ui->label_textAclaracion->show();
+                ui->label_textTotal->show();
+                ui->labelTotal->show();
+                ui->labelTotal->setText(QString::number(total));
+            } else {
+                ui->label_textAclaracion->hide();
+                ui->label_textTotal->hide();
+                ui->labelTotal->hide();
+            }
+
             render(&painter, QPoint(), QRegion(), QWidget::DrawChildren);
             printer.newPage();
             hoja++;
@@ -109,6 +92,10 @@ PrintBusquedaCompras::PrintBusquedaCompras(QWidget *parent, QString nota) :
     }
 
     if (i>0) {
+        ui->label_textAclaracion->show();
+        ui->label_textTotal->show();
+        ui->labelTotal->show();
+        ui->labelTotal->setText(QString::number(total));
         render(&painter, QPoint(), QRegion(), QWidget::DrawChildren);
     }
     painter.end();
@@ -116,7 +103,7 @@ PrintBusquedaCompras::PrintBusquedaCompras(QWidget *parent, QString nota) :
     close();
 }
 
-PrintBusquedaCompras::~PrintBusquedaCompras()
+PrintSaldoPrestadores::~PrintSaldoPrestadores()
 {
     delete ui;
 }

@@ -29,7 +29,9 @@ SOURCES += main.cpp\
     qstringmoney.cpp \
     dialogespera.cpp \
     printbusquedacompras.cpp \
-    compraeditar.cpp
+    compraeditar.cpp \
+    prestadoressaldos.cpp \
+    printsaldoprestadores.cpp
 
 HEADERS  += mainwindow.h \
     global.h \
@@ -50,7 +52,9 @@ HEADERS  += mainwindow.h \
     qstringmoney.h \
     dialogespera.h \
     printbusquedacompras.h \
-    compraeditar.h
+    compraeditar.h \
+    prestadoressaldos.h \
+    printsaldoprestadores.h
 
 FORMS    += mainwindow.ui \
     socionuevo.ui \
@@ -68,7 +72,9 @@ FORMS    += mainwindow.ui \
     printcierre.ui \
     dialogespera.ui \
     printbusquedacompras.ui \
-    compraeditar.ui
+    compraeditar.ui \
+    prestadoressaldos.ui \
+    printsaldoprestadores.ui
 
 RESOURCES += \
     Icons.qrc

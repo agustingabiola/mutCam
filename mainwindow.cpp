@@ -205,6 +205,17 @@ void MainWindow::on_actionBuscar_Compra_triggered(){
     ui->menuBar->show();
 }
 
+void MainWindow::on_actionConsultar_Saldo_deudor_triggered()
+{
+    ui->menuBar->hide();
+    prestadoresSaldos = new PrestadoresSaldos();
+    prestadoresSaldos->exec();
+    showNormal();
+    raise();
+    activateWindow();
+    ui->menuBar->show();
+}
+
 /******************************* FIN PRESTADORES *******************************/
 
 
