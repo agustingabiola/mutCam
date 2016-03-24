@@ -758,12 +758,12 @@
   </action>
   <action name="actionEditar_Socio">
    <property name="text">
-    <string>Editar Socio</string>
+    <string>Consultar Socios</string>
    </property>
   </action>
   <action name="actionBuscar_Compra">
    <property name="text">
-    <string>Buscar Compra</string>
+    <string>Buscar Compras</string>
    </property>
   </action>
   <action name="actionEditar_Empresa">
@@ -773,7 +773,7 @@
   </action>
   <action name="actionEditar_Prestador">
    <property name="text">
-    <string>Editar Prestador</string>
+    <string>Consultar Prestadores</string>
    </property>
   </action>
   <action name="actionEfectuar_Cierre_Mensual">

@@ -5,6 +5,7 @@
 #include <QtSql>
 #include "bd.h"
 #include "prestadornuevo.h"
+#include "printprestadorbusqueda.h"
 
 namespace Ui {class PrestadorBuscar;}
 
@@ -20,9 +21,11 @@ private slots:
 
     void on_pushButtonNuevoPrestador_clicked();
 
-    void on_pushButtonSeleccionar_clicked();
+    void onPushButtonSeleccionar_clicked();
     void on_pushButtonEliminar_clicked();
     void on_pushButtonCancelar_clicked();
+
+    void on_pushButtonImprimir_clicked();
 
 private:
     Ui::PrestadorBuscar *ui;
