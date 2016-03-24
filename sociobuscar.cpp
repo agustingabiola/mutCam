@@ -42,7 +42,7 @@ void SocioBuscar::setTableView(){
     styleSheet = "QTableView::item:selected{ background-color: lightblue; color: black;} ";
     ui->tableView->setStyleSheet(styleSheet);
     ui->tableView->horizontalHeader()->setResizeMode(QHeaderView::Fixed);
-    connect(ui->tableView, SIGNAL(doubleClicked(QModelIndex)), this, SLOT(on_pushButtonSeleccionar_clicked()));
+    connect(ui->tableView, SIGNAL(doubleClicked(QModelIndex)), this, SLOT(onPushButtonSeleccionar_clicked()));
     ui->tableView->setVisible(false);
     ui->tableView->resizeColumnsToContents();
     ui->tableView->setVisible(true);
@@ -78,7 +78,7 @@ void SocioBuscar::on_lineEditBuscar_textChanged(const QString &arg1){
     ui->tableView->setModel(model);
 }
 
-void SocioBuscar::on_pushButtonSeleccionar_clicked(){
+void SocioBuscar::onPushButtonSeleccionar_clicked(){
     int row=ui->tableView->selectionModel()->currentIndex().row();
     idSocio=model->data(model->index(row,0), Qt::DisplayRole).toString();
     if (idSocio!=INVALIDO){
@@ -105,7 +105,7 @@ void SocioBuscar::keyPressEvent(QKeyEvent * event){
     switch (event->key()){
     case Qt::Key_Escape : close();
         break;
-    case Qt::Key_Return : on_pushButtonSeleccionar_clicked();
+    case Qt::Key_Return : onPushButtonSeleccionar_clicked();
         break;
     case Qt::Key_Up : ui->tableView->selectRow(ui->tableView->selectionModel()->currentIndex().row()-1);
         break;
@@ -113,4 +113,10 @@ void SocioBuscar::keyPressEvent(QKeyEvent * event){
         break;
     }
     QTimer::singleShot(0, ui->lineEditBuscar, SLOT(setFocus()));
+}
+
+void SocioBuscar::on_pushButtonImprimir_clicked()
+{
+    PrintSociosBusqueda *p = new PrintSociosBusqueda();
+    p->close();
 }

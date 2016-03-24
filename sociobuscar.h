@@ -4,6 +4,7 @@
 #include <QDialog>
 #include <QtSql>
 #include "bd.h"
+#include "printsociosbusqueda.h"
 
 namespace Ui {class SocioBuscar;}
 
@@ -17,8 +18,10 @@ public:
 private slots:
     void on_lineEditBuscar_textChanged(const QString &arg1);
 
-    void on_pushButtonSeleccionar_clicked();
+    void onPushButtonSeleccionar_clicked();
     void on_pushButtonCancelar_clicked();
+
+    void on_pushButtonImprimir_clicked();
 
 private:
     Ui::SocioBuscar *ui;

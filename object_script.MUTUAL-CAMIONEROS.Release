@@ -24,6 +24,7 @@ INPUT(
 ./release\printsaldoprestadores.o
 ./release\printempresabusqueda.o
 ./release\printprestadorbusqueda.o
+./release\printsociosbusqueda.o
 ./release\moc_mainwindow.o
 ./release\moc_bd.o
 ./release\moc_socionuevo.o
@@ -46,5 +47,6 @@ INPUT(
 ./release\moc_printsaldoprestadores.o
 ./release\moc_printempresabusqueda.o
 ./release\moc_printprestadorbusqueda.o
+./release\moc_printsociosbusqueda.o
 ./release\qrc_Icons.o
 );

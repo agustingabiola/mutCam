@@ -62,9 +62,9 @@
   <widget class="QTableView" name="tableView">
    <property name="geometry">
     <rect>
-     <x>0</x>
+     <x>10</x>
      <y>70</y>
-     <width>1300</width>
+     <width>1275</width>
      <height>580</height>
     </rect>
    </property>
@@ -76,7 +76,7 @@
    </property>
    <property name="minimumSize">
     <size>
-     <width>1300</width>
+     <width>1275</width>
      <height>500</height>
     </size>
    </property>
@@ -226,7 +226,7 @@
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="pushButtonSeleccionar">
+     <widget class="QPushButton" name="pushButtonImprimir">
       <property name="minimumSize">
        <size>
         <width>140</width>
@@ -239,7 +239,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Seleccionar</string>
+       <string>Imprimir</string>
       </property>
       <property name="autoDefault">
        <bool>true</bool>
