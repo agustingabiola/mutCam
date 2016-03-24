@@ -22,6 +22,7 @@ INPUT(
 ./debug\compraeditar.o
 ./debug\prestadoressaldos.o
 ./debug\printsaldoprestadores.o
+./debug\printempresabusqueda.o
 ./debug\moc_mainwindow.o
 ./debug\moc_bd.o
 ./debug\moc_socionuevo.o
@@ -42,5 +43,6 @@ INPUT(
 ./debug\moc_compraeditar.o
 ./debug\moc_prestadoressaldos.o
 ./debug\moc_printsaldoprestadores.o
+./debug\moc_printempresabusqueda.o
 ./debug\qrc_Icons.o
 );

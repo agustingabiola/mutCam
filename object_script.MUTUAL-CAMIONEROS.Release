@@ -22,6 +22,7 @@ INPUT(
 ./release\compraeditar.o
 ./release\prestadoressaldos.o
 ./release\printsaldoprestadores.o
+./release\printempresabusqueda.o
 ./release\moc_mainwindow.o
 ./release\moc_bd.o
 ./release\moc_socionuevo.o
@@ -42,5 +43,6 @@ INPUT(
 ./release\moc_compraeditar.o
 ./release\moc_prestadoressaldos.o
 ./release\moc_printsaldoprestadores.o
+./release\moc_printempresabusqueda.o
 ./release\qrc_Icons.o
 );

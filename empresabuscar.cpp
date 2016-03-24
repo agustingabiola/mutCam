@@ -37,7 +37,7 @@ void EmpresaBuscar::setTableView(){
     styleSheet = "QTableView::item:selected{ background-color: lightblue; color: black;} ";
     ui->tableView->setStyleSheet(styleSheet);
     ui->tableView->horizontalHeader()->setResizeMode(QHeaderView::Fixed);
-    connect(ui->tableView, SIGNAL(doubleClicked(QModelIndex)), this, SLOT(on_pushButtonSeleccionar_clicked()));
+    connect(ui->tableView, SIGNAL(doubleClicked(QModelIndex)), this, SLOT(onPushButtonSeleccionar_clicked()));
     ui->tableView->setVisible(false);
     ui->tableView->resizeColumnsToContents();
     ui->tableView->setVisible(true);
@@ -73,7 +73,7 @@ void EmpresaBuscar::on_pushButtonNuevoEmpresa_clicked(){
     on_lineEditBuscar_textChanged(ui->lineEditBuscar->text());
 }
 
-void EmpresaBuscar::on_pushButtonSeleccionar_clicked(){
+void EmpresaBuscar::onPushButtonSeleccionar_clicked(){
     int row=ui->tableView->selectionModel()->currentIndex().row();
     idEmpresa=model->data(model->index(row,0), Qt::DisplayRole).toString();
     if (idEmpresa!=INVALIDO){
@@ -126,7 +126,7 @@ void EmpresaBuscar::keyPressEvent(QKeyEvent * event){
     switch (event->key()){
     case Qt::Key_Escape : close();
         break;
-    case Qt::Key_Return : on_pushButtonSeleccionar_clicked();
+    case Qt::Key_Return : onPushButtonSeleccionar_clicked();
         break;
     case Qt::Key_Up : ui->tableView->selectRow(ui->tableView->selectionModel()->currentIndex().row()-1);
         break;
@@ -134,4 +134,10 @@ void EmpresaBuscar::keyPressEvent(QKeyEvent * event){
         break;
     }
     QTimer::singleShot(0, ui->lineEditBuscar, SLOT(setFocus()));
+}
+
+void EmpresaBuscar::on_pushButtonImprimir_clicked()
+{
+    PrintEmpresaBusqueda *p = new PrintEmpresaBusqueda();
+    p->close();
 }

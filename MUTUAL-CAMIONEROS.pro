@@ -31,7 +31,8 @@ SOURCES += main.cpp\
     printbusquedacompras.cpp \
     compraeditar.cpp \
     prestadoressaldos.cpp \
-    printsaldoprestadores.cpp
+    printsaldoprestadores.cpp \
+    printempresabusqueda.cpp
 
 HEADERS  += mainwindow.h \
     global.h \
@@ -54,7 +55,8 @@ HEADERS  += mainwindow.h \
     printbusquedacompras.h \
     compraeditar.h \
     prestadoressaldos.h \
-    printsaldoprestadores.h
+    printsaldoprestadores.h \
+    printempresabusqueda.h
 
 FORMS    += mainwindow.ui \
     socionuevo.ui \
@@ -74,7 +76,8 @@ FORMS    += mainwindow.ui \
     printbusquedacompras.ui \
     compraeditar.ui \
     prestadoressaldos.ui \
-    printsaldoprestadores.ui
+    printsaldoprestadores.ui \
+    printempresabusqueda.ui
 
 RESOURCES += \
     Icons.qrc
