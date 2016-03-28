@@ -45,7 +45,7 @@ color: black;</string>
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>134</y>
+     <y>150</y>
      <width>965</width>
      <height>565</height>
     </rect>
@@ -147,7 +147,15 @@ color: black;</string>
    </attribute>
    <column>
     <property name="text">
-     <string>NOMBRE SOCIO</string>
+     <string># AFILIADO</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>NOMBRE AFILIADO</string>
     </property>
     <property name="textAlignment">
      <set>AlignHCenter|AlignVCenter|AlignCenter</set>
@@ -163,7 +171,7 @@ color: black;</string>
    </column>
    <column>
     <property name="text">
-     <string>FLIA</string>
+     <string>GPO FLIAR</string>
     </property>
     <property name="textAlignment">
      <set>AlignHCenter|AlignVCenter|AlignCenter</set>
@@ -171,7 +179,7 @@ color: black;</string>
    </column>
    <column>
     <property name="text">
-     <string>CLUB</string>
+     <string>CLUB PORV</string>
     </property>
     <property name="textAlignment">
      <set>AlignHCenter|AlignVCenter|AlignCenter</set>
@@ -180,22 +188,6 @@ color: black;</string>
    <column>
     <property name="text">
      <string>TELEFONO</string>
-    </property>
-    <property name="textAlignment">
-     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>DIRECCION</string>
-    </property>
-    <property name="textAlignment">
-     <set>AlignHCenter|AlignVCenter|AlignCenter</set>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>EM@IL</string>
     </property>
     <property name="textAlignment">
      <set>AlignHCenter|AlignVCenter|AlignCenter</set>

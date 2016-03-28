@@ -34,15 +34,14 @@ PrintSociosBusqueda::PrintSociosBusqueda(QWidget *parent) :
     progressIncrement = static_cast<int>(((100/ hojas)+0.5f));
     ui->labelHoja->setText("Hoja 1 de "+hojamax);
 
-    ui->tableImpresion->setColumnWidth(0,170);
-    ui->tableImpresion->setColumnWidth(1,175);
-    ui->tableImpresion->setColumnWidth(2,40);
-    ui->tableImpresion->setColumnWidth(3,40);
+    ui->tableImpresion->setColumnWidth(0,100);
+    ui->tableImpresion->setColumnWidth(1,200);
+    ui->tableImpresion->setColumnWidth(2,200);
+    ui->tableImpresion->setColumnWidth(3,75);
     ui->tableImpresion->setColumnWidth(4,75);
-    ui->tableImpresion->setColumnWidth(5,175);
-    ui->tableImpresion->setColumnWidth(6,175);
+    ui->tableImpresion->setColumnWidth(5,120);
+    ui->tableImpresion->setColumnWidth(6,100);
     ui->tableImpresion->setColumnWidth(7,65);
-    ui->tableImpresion->setColumnWidth(8,65);
     QString styleSheet = "QHeaderView::section {"
                          "spacing: 5px;"
                          "height: 23px;"
@@ -67,42 +66,42 @@ PrintSociosBusqueda::PrintSociosBusqueda(QWidget *parent) :
     while (j<rowCount){
         QSqlRecord row = model->record(j);
         ui->tableImpresion->insertRow(i);
+        item = new QTableWidgetItem(row.value(0).toString());
+        item->setFont(f);
+        item->setTextAlignment(Qt::AlignCenter);
+        item->setFlags(item->flags()&~Qt::ItemIsEditable);
+        ui->tableImpresion->setItem(i, 0, item);
         item = new QTableWidgetItem(row.value(1).toString() + " " + row.value(2).toString());
         item->setFont(f);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 0, item);
+        ui->tableImpresion->setItem(i, 1, item);
         item = new QTableWidgetItem(row.value(3).toString());
         item->setFont(f);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 1, item);
+        ui->tableImpresion->setItem(i, 2, item);
         item = new QTableWidgetItem(row.value(4).toString());
         item->setFont(f);
+        item->setTextAlignment(Qt::AlignCenter);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 2, item);
+        ui->tableImpresion->setItem(i, 3, item);
         item = new QTableWidgetItem(row.value(5).toString());
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
         item->setFont(f);
-        ui->tableImpresion->setItem(i, 3, item);
+        item->setTextAlignment(Qt::AlignCenter);
+        ui->tableImpresion->setItem(i, 4, item);
         item = new QTableWidgetItem(row.value(6).toString());
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
         item->setFont(f);
-        ui->tableImpresion->setItem(i, 4, item);
-        item = new QTableWidgetItem(row.value(7).toString());
-        item->setFont(f);
-        item->setFlags(item->flags()&~Qt::ItemIsEditable);
         ui->tableImpresion->setItem(i, 5, item);
-        item = new QTableWidgetItem(row.value(8).toString());
-        item->setFont(f);
-        item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 6, item);
         item = new QTableWidgetItem(row.value(9).toString());
         item->setFont(f);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 7, item);
+        ui->tableImpresion->setItem(i, 6, item);
         item = new QTableWidgetItem(row.value(10).toString());
         item->setFont(f);
+        item->setTextAlignment(Qt::AlignCenter);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 8, item);
+        ui->tableImpresion->setItem(i, 7, item);
         j++;
         i++;
         if (i==maxRowsPerPage){
