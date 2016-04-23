@@ -185,12 +185,14 @@ void BD::hacerBackUp(QString path){
     QFile cierres(path+"/BACK-UP/"+date+"/cierres.txt");
     cierres.open (QIODevice::ReadWrite | QIODevice::Text);
     QTextStream linea_cierre(&cierres);
-    query.prepare      ("SELECT MAX(fechafinal) FROM CIERRES");
+    query.prepare("SELECT c.* FROM cierres c INNER JOIN (SELECT idempresa, MAX(fechafinal) AS maxDate FROM cierres GROUP BY idempresa) cierresMax ON c.idempresa = cierresMax.idempresa AND c.fechafinal = cierresMax.maxDate");
     ejecutar();
-    BD::query.next();
-    QString fecha_actualizacion = query.value(0).toDate().toString("dd-MM-yyyy");
-    instruccion="INSERT INTO CIERRES (fechainicio, fechafinal) VALUES (TO_DATE('"+fecha_actualizacion+"','dd-MM-yyyy'), TO_DATE('"+fecha_actualizacion+"','dd-MM-yyyy')); ";
-    linea_cierre << instruccion << endl << '/' <<endl;
+    while (query.next()) {
+        QString fecha_actualizacion = query.value(0).toDate().toString("dd-MM-yyyy");
+        instruccion="INSERT INTO CIERRES (fechainicio, fechafinal, idempresa) VALUES (TO_DATE('"+fecha_actualizacion+"','dd-MM-yyyy'), TO_DATE('"+fecha_actualizacion+"','dd-MM-yyyy')," + query.value(2).toString() +"); ";
+        linea_cierre << instruccion << endl << '/' <<endl;
+        instruccion.clear();
+    }
     cierres.close ();
     GrupoFlia *gf= new GrupoFlia();
     QMessageBox::information(gf,"BACK UP",QString("Operación realizada con éxito!."));
@@ -650,7 +652,7 @@ void BD::crearTablaCierres(){
     instruccion="CREATE TABLE CIERRES ( "
                       "fechainicio       DATE NOT NULL, "
                       "fechafinal        DATE NOT NULL, "
-                      "idempresa         VARCHAR2(10) NOT NULL, "
+                      "idempresa         VARCHAR2(10) DEFAULT '-1', "
                    "constraint        CIERRES_PK primary key (fechainicio, fechafinal, idempresa) "
                    ") ";
     BD::query.prepare(instruccion);
