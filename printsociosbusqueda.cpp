@@ -17,6 +17,7 @@ PrintSociosBusqueda::PrintSociosBusqueda(QWidget *parent) :
     d_espera->setInsideText("Imprimiendo socios");
     d_espera->updateValue(1);
     d_espera->show ();
+    QApplication::processEvents();
 
     int hojas=1;
     while(model->canFetchMore()) {
@@ -26,7 +27,7 @@ PrintSociosBusqueda::PrintSociosBusqueda(QWidget *parent) :
     int maxRowsPerPage = 27;
     int count=maxRowsPerPage;
     while (count<rowCount){
-        count=count+maxRowsPerPage;
+        count+=maxRowsPerPage;
         hojas=hojas+1;
     }
     hoja=1;
@@ -58,8 +59,20 @@ PrintSociosBusqueda::PrintSociosBusqueda(QWidget *parent) :
     int j=0;
     int i=0;
     QTableWidgetItem *item;
+    printer.setOutputFormat(QPrinter::PdfFormat);
     printer.setOrientation(QPrinter::Landscape);
+    QString fileNameAndPath = QFileDialog::getSaveFileName(this, "Guardar en formato PDF", "listaDeSociosAl_" + QDate::currentDate().toString("dd_MM_yy"),"*.pdf");
+    if (!fileNameAndPath.isNull()) {
+        printer.setOutputFileName(fileNameAndPath);
+    } else {
+        d_espera->close();
+        delete ui;
+        close();
+        return;
+    }
     QPainter painter(&printer);
+    painter.setRenderHint(QPainter::Antialiasing);
+    painter.setRenderHint(QPainter::HighQualityAntialiasing);
     QFont f = QFont();
     f.setPixelSize(10);
     QApplication::processEvents();
@@ -71,7 +84,7 @@ PrintSociosBusqueda::PrintSociosBusqueda(QWidget *parent) :
         item->setTextAlignment(Qt::AlignCenter);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
         ui->tableImpresion->setItem(i, 0, item);
-        item = new QTableWidgetItem(row.value(1).toString() + " " + row.value(2).toString());
+        item = new QTableWidgetItem(row.value(2).toString() + ", " + row.value(1).toString());
         item->setFont(f);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
         ui->tableImpresion->setItem(i, 1, item);

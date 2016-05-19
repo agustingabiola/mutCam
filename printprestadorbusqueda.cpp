@@ -46,8 +46,24 @@ PrintPrestadorBusqueda::PrintPrestadorBusqueda(QWidget *parent) :
     int j=0;
     int i=0;
     QTableWidgetItem *item;
+    printer.setOutputFormat(QPrinter::PdfFormat);
     printer.setOrientation(QPrinter::Landscape);
+    QString fileNameAndPath = QFileDialog::getSaveFileName(
+        this,
+        "Guardar en formato PDF",
+        "listadoPrestadoresAl_" + QDate::currentDate().toString("dd_MM_yy"),
+        "*.pdf"
+    );
+    if (!fileNameAndPath.isNull()) {
+        printer.setOutputFileName(fileNameAndPath);
+    } else {
+        delete ui;
+        close();
+        return;
+    }
     QPainter painter(&printer);
+    painter.setRenderHint(QPainter::Antialiasing);
+    painter.setRenderHint(QPainter::HighQualityAntialiasing);
     QFont f = QFont();
     f.setPixelSize(12);
     while (j<rowCount){

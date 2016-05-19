@@ -17,17 +17,9 @@ SocioBuscar::~SocioBuscar(){
 }
 
 void SocioBuscar::setTableView(){
-    QString busqueda="WHERE socios.activado=1";
+    QString busqueda="WHERE socios.activado=1 ORDER BY (idsocio)";
     BD::buscarSocio(busqueda);
-    ui->tableView->setModel(model);
-    ui->tableView->hideColumn(11);
-    model->setHeaderData(0, Qt::Horizontal, tr("# SOCIO"));
-    model->setHeaderData(3, Qt::Horizontal, tr("EMPRESA"));
-    model->setHeaderData(4, Qt::Horizontal, tr("GRUP FLIA?"));
-    model->setHeaderData(5, Qt::Horizontal, tr("CLUB PORVE?"));
-    model->setHeaderData(8, Qt::Horizontal, tr("E-M@IL"));
-    model->setHeaderData(9, Qt::Horizontal, tr("D.N.I."));
-    model->setHeaderData(10, Qt::Horizontal, tr("NACIMIENTO"));    
+    setModelAndHeaders();
     QString styleSheet =  "QHeaderView::section {"
                          "spacing: 10px;"
                          "background-color: lightblue;"
@@ -66,16 +58,14 @@ void SocioBuscar::on_lineEditBuscar_textChanged(const QString &arg1){
     QString busquedaNumSocio = sl.join("%' AND UPPER (socios.idsocio) LIKE '%");
     busquedaNumSocio.prepend(" OR  UPPER (socios.idsocio) LIKE '%");
     busquedaNumSocio.append("%'  ");
-    QString busqueda=busquedaNombre+busquedaApellido+busquedaDni+busquedaEmpresa+busquedaNumSocio+") AND (socios.activado=1) ";
+    QString busqueda=busquedaNombre+busquedaApellido+busquedaDni+busquedaEmpresa+busquedaNumSocio+") AND (socios.activado=1)";
+    if (ui->checkBox->isChecked()) {
+        busqueda += " ORDER BY socios.apellido, socios.nombre";
+    } else {
+        busqueda += " ORDER BY socios.idsocio";
+    }
     BD::buscarSocio(busqueda);
-    model->setHeaderData(0, Qt::Horizontal, tr("# SOCIO"));
-    model->setHeaderData(3, Qt::Horizontal, tr("EMPRESA"));
-    model->setHeaderData(4, Qt::Horizontal, tr("GRUP FLIA?"));
-    model->setHeaderData(5, Qt::Horizontal, tr("CLUB PORVE?"));
-    model->setHeaderData(8, Qt::Horizontal, tr("E-M@IL"));
-    model->setHeaderData(9, Qt::Horizontal, tr("D.N.I."));
-    model->setHeaderData(10, Qt::Horizontal, tr("NACIMIENTO"));
-    ui->tableView->setModel(model);
+    setModelAndHeaders();
 }
 
 void SocioBuscar::onPushButtonSeleccionar_clicked(){
@@ -115,8 +105,26 @@ void SocioBuscar::keyPressEvent(QKeyEvent * event){
     QTimer::singleShot(0, ui->lineEditBuscar, SLOT(setFocus()));
 }
 
+void SocioBuscar::setModelAndHeaders()
+{
+    model->setHeaderData(0, Qt::Horizontal, tr("# SOCIO"));
+    model->setHeaderData(3, Qt::Horizontal, tr("EMPRESA"));
+    model->setHeaderData(4, Qt::Horizontal, tr("GRUP FLIA?"));
+    model->setHeaderData(5, Qt::Horizontal, tr("CLUB PORVE?"));
+    model->setHeaderData(8, Qt::Horizontal, tr("E-M@IL"));
+    model->setHeaderData(9, Qt::Horizontal, tr("D.N.I."));
+    model->setHeaderData(10, Qt::Horizontal, tr("NACIMIENTO"));
+    ui->tableView->setModel(model);
+    ui->tableView->hideColumn(11);
+}
+
 void SocioBuscar::on_pushButtonImprimir_clicked()
 {
     PrintSociosBusqueda *p = new PrintSociosBusqueda();
     p->close();
+}
+
+void SocioBuscar::on_checkBox_stateChanged(int arg1)
+{
+    on_lineEditBuscar_textChanged(ui->lineEditBuscar->text());
 }

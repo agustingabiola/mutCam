@@ -305,11 +305,6 @@ color: black;</string>
    </column>
    <column>
     <property name="text">
-     <string>NOMBRE Y APELLIDO</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
      <string>PRESTADOR</string>
     </property>
    </column>

@@ -26,9 +26,9 @@ PrintEmpresaBusqueda::PrintEmpresaBusqueda(QWidget *parent) :
 
     ui->tableImpresion->setColumnWidth(0,275);
     ui->tableImpresion->setColumnWidth(1,150);
-    ui->tableImpresion->setColumnWidth(2,150);
-    ui->tableImpresion->setColumnWidth(3,120);
-    ui->tableImpresion->setColumnWidth(4,225);
+    ui->tableImpresion->setColumnWidth(2,185);
+    ui->tableImpresion->setColumnWidth(3,100);
+    ui->tableImpresion->setColumnWidth(4,210);
     QString styleSheet = "QHeaderView::section {"
                          "spacing: 5px;"
                          "height: 23px;"
@@ -45,8 +45,24 @@ PrintEmpresaBusqueda::PrintEmpresaBusqueda(QWidget *parent) :
     int j=0;
     int i=0;
     QTableWidgetItem *item;
+    printer.setOutputFormat(QPrinter::PdfFormat);
     printer.setOrientation(QPrinter::Landscape);
+    QString fileNameAndPath = QFileDialog::getSaveFileName(
+        this,
+        "Guardar en formato PDF",
+        "listadoEmpresasAl_" + QDate::currentDate().toString("dd_MM_yy"),
+        "*.pdf"
+    );
+    if (!fileNameAndPath.isNull()) {
+        printer.setOutputFileName(fileNameAndPath);
+    } else {
+        delete ui;
+        close();
+        return;
+    }
     QPainter painter(&printer);
+    painter.setRenderHint(QPainter::Antialiasing);
+    painter.setRenderHint(QPainter::HighQualityAntialiasing);
     QFont f = QFont();
     f.setPixelSize(12);
     while (j<rowCount){

@@ -25,16 +25,15 @@ PrintBusquedaCompras::PrintBusquedaCompras(QWidget *parent, QString nota) :
     hojamax=QString::number(hojas);
     ui->labelHoja->setText("Hoja 1 de "+hojamax);
 
-    ui->tableImpresion->setColumnWidth(0,60);
-    ui->tableImpresion->setColumnWidth(1,160);
-    ui->tableImpresion->setColumnWidth(2,160);
-    ui->tableImpresion->setColumnWidth(3,80);
+    ui->tableImpresion->setColumnWidth(0,80);
+    ui->tableImpresion->setColumnWidth(1,200);
+    ui->tableImpresion->setColumnWidth(2,80);
+    ui->tableImpresion->setColumnWidth(3,70);
     ui->tableImpresion->setColumnWidth(4,70);
-    ui->tableImpresion->setColumnWidth(5,70);
-    ui->tableImpresion->setColumnWidth(6,70);
+    ui->tableImpresion->setColumnWidth(5,80);
+    ui->tableImpresion->setColumnWidth(6,170);
     ui->tableImpresion->setColumnWidth(7,110);
-    ui->tableImpresion->setColumnWidth(8,91);
-    ui->tableImpresion->setColumnWidth(9,91);
+    ui->tableImpresion->setColumnWidth(8,110);
     QString styleSheet = "QHeaderView::section {"
                          "spacing: 5px;"
                          "height: 23px;"
@@ -51,51 +50,63 @@ PrintBusquedaCompras::PrintBusquedaCompras(QWidget *parent, QString nota) :
     int j=0;
     int i=0;
     QTableWidgetItem *item;
+    printer.setOutputFormat(QPrinter::PdfFormat);
     printer.setOrientation(QPrinter::Landscape);
+    QString fileNameAndPath = QFileDialog::getSaveFileName(
+        this,
+        "Guardar en formato PDF",
+        "busquedaCompras",
+        "*.pdf"
+    );
+    if (!fileNameAndPath.isNull()) {
+        printer.setOutputFileName(fileNameAndPath);
+    } else {
+        delete ui;
+        close();
+        return;
+    }
     QPainter painter(&printer);
+    painter.setRenderHint(QPainter::Antialiasing);
+    painter.setRenderHint(QPainter::HighQualityAntialiasing);
     while (j<rowCount){
         QSqlRecord row = model->record(j);
         ui->tableImpresion->insertRow(i);
         item = new QTableWidgetItem(row.value(1).toString());
-        item->setTextAlignment(Qt::AlignRight);
-        item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 0, item);
-        item = new QTableWidgetItem(row.value(2).toString());
         item->setTextAlignment(Qt::AlignLeft);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 1, item);
+        ui->tableImpresion->setItem(i, 0, item);
         item = new QTableWidgetItem(row.value(4).toString());
         item->setTextAlignment(Qt::AlignLeft);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 2, item);
+        ui->tableImpresion->setItem(i, 1, item);
         item = new QTableWidgetItem(row.value(5).toString());
         item->setTextAlignment(Qt::AlignRight);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 3, item);
+        ui->tableImpresion->setItem(i, 2, item);
         item = new QTableWidgetItem(row.value(6).toString());
-        item->setTextAlignment(Qt::AlignRight);
+        item->setTextAlignment(Qt::AlignCenter);
+        item->setFlags(item->flags()&~Qt::ItemIsEditable);
+        ui->tableImpresion->setItem(i, 3, item);
+        item = new QTableWidgetItem(row.value(7).toString());
+        item->setTextAlignment(Qt::AlignCenter);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
         ui->tableImpresion->setItem(i, 4, item);
-        item = new QTableWidgetItem(row.value(7).toString());
-        item->setTextAlignment(Qt::AlignRight);
-        item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 5, item);
         item = new QTableWidgetItem(row.value(8).toString());
         item->setTextAlignment(Qt::AlignRight);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 6, item);
+        ui->tableImpresion->setItem(i, 5, item);
         item = new QTableWidgetItem(row.value(9).toString());
         item->setTextAlignment(Qt::AlignRight);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 7, item);
+        ui->tableImpresion->setItem(i, 6, item);
         item = new QTableWidgetItem(row.value(10).toString());
         item->setTextAlignment(Qt::AlignRight);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 8, item);
+        ui->tableImpresion->setItem(i, 7, item);
         item = new QTableWidgetItem(row.value(11).toString());
         item->setTextAlignment(Qt::AlignRight);
         item->setFlags(item->flags()&~Qt::ItemIsEditable);
-        ui->tableImpresion->setItem(i, 9, item);
+        ui->tableImpresion->setItem(i, 8, item);
         j++;
         i++;
         if (i==maxRowsPerPage){

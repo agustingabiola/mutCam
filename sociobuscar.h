@@ -23,12 +23,16 @@ private slots:
 
     void on_pushButtonImprimir_clicked();
 
+    void on_checkBox_stateChanged(int arg1);
+
 private:
     Ui::SocioBuscar *ui;
 
     void setTableView();
 
     void keyPressEvent(QKeyEvent * event);
+
+    void setModelAndHeaders();
 };
 
 #endif // CLIENTEBUSCAR_H

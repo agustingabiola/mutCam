@@ -9,6 +9,7 @@
 #include <QSqlRecord>
 #include "global.h"
 #include "dialogespera.h"
+#include <QFileDialog>
 
 namespace Ui {
 class PrintSociosBusqueda;

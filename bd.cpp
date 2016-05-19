@@ -392,7 +392,7 @@ void BD::buscarSocio(QString busqueda){
     model->clear();
     abrir();
     model->setQuery("SELECT socios.idsocio, socios.nombre, socios.apellido, empresas.nombre, socios.grupofamiliar, socios.clubporve, socios.telefono, socios.direccion, socios.mail, socios.dni, socios.fechanac, socios.flia "
-                    " FROM SOCIOS JOIN EMPRESAS ON empresas.idempresa = socios.idempresa "+busqueda+" ORDER BY (idsocio)", BD::db);
+                    " FROM SOCIOS JOIN EMPRESAS ON empresas.idempresa = socios.idempresa "+busqueda, BD::db);
 }
 
 void BD::actualizarSocio(QString idAux){

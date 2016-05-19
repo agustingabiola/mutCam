@@ -8,6 +8,7 @@
 #include <QDate>
 #include <QSqlRecord>
 #include "global.h"
+#include <QFileDialog>
 
 namespace Ui {
 class PrintSaldoPrestadores;
