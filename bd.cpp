@@ -91,9 +91,10 @@ void BD::hacerBackUp(QString path){
     ejecutar();
     while (query.next()) {
         instruccion="";
-        instruccion="INSERT INTO EMPRESAS (razon_social, cuit, nombre, telefono, direccion, mail, activado)";
+        instruccion="INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado)";
         instruccion.append(" VALUES (");
-        instruccion.append("  '"+query.value(1).toString()+"'");
+        instruccion.append("  '"+query.value(0).toString()+"'");
+        instruccion.append(", '"+query.value(1).toString()+"'");
         instruccion.append(", '"+query.value(2).toString()+"'");
         instruccion.append(", '"+query.value(3).toString()+"'");
         instruccion.append(", '"+query.value(4).toString()+"'");

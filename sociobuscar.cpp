@@ -107,6 +107,9 @@ void SocioBuscar::keyPressEvent(QKeyEvent * event){
 
 void SocioBuscar::setModelAndHeaders()
 {
+    while(model->canFetchMore()) {
+        model->fetchMore();
+    }
     model->setHeaderData(0, Qt::Horizontal, tr("# SOCIO"));
     model->setHeaderData(3, Qt::Horizontal, tr("EMPRESA"));
     model->setHeaderData(4, Qt::Horizontal, tr("GRUP FLIA?"));
