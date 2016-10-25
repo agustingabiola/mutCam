@@ -1,0 +1,48 @@
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'FRIGORIFICO MODELO', '', 'FRIGORIFICO MODELO', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'SPORTS FAMILY', '', 'SPORTS FAMILY', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'DISTRIBUIDORA BARRERA', '', 'BARRERA', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'CALZADOS ROCHI', '', 'CALZADOS ROCHI', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'CALZADOS PETRA', '', 'CALZADOS PETRA', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'BRINDARLP', '', 'BRINDARLP', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'AUTOPARTE AVENIDA', '', 'AUTOPARTE AVENIDA', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'CASASOLA', '', 'CASASOLA', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'FRUTAMAR', '', 'FRUTAMAR', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'OPEN SPORTS', '', 'OPEN SPORTS', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'OPTICA CAVARRA', '', 'OPTICA CAVARRA', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'PELUQUERIA MARIAN', '', 'PELUQUERIA MARIAN', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'RIFAS', '', 'RIFAS', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'SEGURINEX', '', 'SEGURINEX', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'SAMPIETRO', '', 'SAMPIETRO', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'HOTEL', '', 'HOTEL', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'ARCO IRIS', '', 'MIMO', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'MIMO CO', '27216645117', 'ARCO IRIS', '', 'CALLE 2 Nº 481 -SANTA TERESITA-', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'CLINICA VF', '', 'VANINA FERNANDEZ', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'TEMAS', '', 'TEMAS', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'RIVAS HAROLDO JOSE (GOMERIA)', '', 'RIVAS', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'POSADA', '', 'POSADA "EL QUINCHO"', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'MILANO SACIFYA', '', 'MILANO', '', '', '', 1 ); 
+/
+INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  'INVISE SRL', '', 'INVISE', '', '', '', 1 ); 
+/

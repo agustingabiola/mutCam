@@ -142,9 +142,10 @@ void BD::hacerBackUp(QString path){
     ejecutar();
     while (query.next()) {
         instruccion="";
-        instruccion="INSERT INTO PRESTADORES (razon_social, cuit, nombre, telefono, direccion, mail, activado)";
+        instruccion="INSERT INTO PRESTADORES (idprestador, razon_social, cuit, nombre, telefono, direccion, mail, activado)";
         instruccion.append(" VALUES (");
-        instruccion.append("  '"+query.value(1).toString()+"'");
+        instruccion.append("  '"+query.value(0).toString()+"'");
+        instruccion.append(", '"+query.value(1).toString()+"'");
         instruccion.append(", '"+query.value(2).toString()+"'");
         instruccion.append(", '"+query.value(3).toString()+"'");
         instruccion.append(", '"+query.value(4).toString()+"'");
@@ -164,9 +165,10 @@ void BD::hacerBackUp(QString path){
     ejecutar();
     while (query.next()) {
         instruccion="";
-        instruccion="INSERT INTO COMPRAS (idsocio, idprestador, monto, cantcuota, cuotaact, tipo, observaciones, terminado, fechamodificacion, fechaautorizacion, activado) ";
+        instruccion="INSERT INTO COMPRAS (idcompra, idsocio, idprestador, monto, cantcuota, cuotaact, tipo, observaciones, terminado, fechamodificacion, fechaautorizacion, activado) ";
         instruccion.append(" VALUES (");
-        instruccion.append("  '"+query.value(1).toString()+"'");
+        instruccion.append("  '"+query.value(0).toString()+"'");
+        instruccion.append(", '"+query.value(1).toString()+"'");
         instruccion.append(", '"+query.value(2).toString()+"'");
         instruccion.append(",  "+query.value(3).toString());
         instruccion.append(",  "+query.value(4).toString());
@@ -217,12 +219,14 @@ void BD::crearTablaEmpresas(){
                    ") ";
     BD::query.prepare(instruccion);
     if (ejecutar("Crear Tabla Empresas")){
-        instruccion = "CREATE SEQUENCE secuencia_empresas START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE ";
+        instruccion = "CREATE SEQUENCE secuencia_empresas START WITH 1000 INCREMENT BY 1 NOCACHE NOCYCLE ";
         BD::query.prepare(instruccion);
         ejecutar("Crear Secuencia de Empresas");
         instruccion = "CREATE OR REPLACE TRIGGER trigger_pk_empresas BEFORE INSERT ON EMPRESAS FOR EACH ROW "
                         "BEGIN "
-                            ":new.idempresa := TO_CHAR(secuencia_empresas.nextval); "
+                            "IF NOT UPDATING('idempresa') AND :new.idempresa is NULL THEN "
+                                ":new.idempresa := TO_CHAR(secuencia_empresas.nextval); "
+                            "END IF; "
                         "END; ";
         BD::query.prepare(instruccion);
         ejecutar("Crear Trigger Key de Empresas");
@@ -456,12 +460,14 @@ void BD::crearTablaPrestadores(){
                    ") ";
     BD::query.prepare(instruccion);
     if (ejecutar("Crear Tabla Prestadores")){
-        instruccion = "CREATE SEQUENCE secuencia_prestadores START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE ";
+        instruccion = "CREATE SEQUENCE secuencia_prestadores START WITH 1000 INCREMENT BY 1 NOCACHE NOCYCLE ";
         BD::query.prepare(instruccion);
         ejecutar("Crear Secuencia de Prestadores");
         instruccion = "CREATE OR REPLACE TRIGGER trigger_pk_prestadores BEFORE INSERT ON PRESTADORES FOR EACH ROW "
                         "BEGIN "
-                            ":new.idprestador := TO_CHAR(secuencia_prestadores.nextval); "
+                            "IF NOT UPDATING('idprestador') AND :new.idprestador is NULL THEN "
+                                ":new.idprestador := TO_CHAR(secuencia_prestadores.nextval); "
+                            "END IF; "
                         "END; ";
         BD::query.prepare(instruccion);
         ejecutar("Crear Trigger Key de Prestadores");
@@ -567,12 +573,14 @@ void BD::crearTablaCompras(){
                    ") ";
     BD::query.prepare(instruccion);
     if (ejecutar("Crear Tabla Compras")){
-        instruccion = "CREATE SEQUENCE secuencia_compras START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE ";
+        instruccion = "CREATE SEQUENCE secuencia_compras START WITH 10000 INCREMENT BY 1 NOCACHE NOCYCLE ";
         BD::query.prepare(instruccion);
         ejecutar("Crear Secuencia de Compras");
         instruccion = "CREATE OR REPLACE TRIGGER trigger_pk_compras BEFORE INSERT ON COMPRAS FOR EACH ROW "
                         "BEGIN "
-                            ":new.idcompra := TO_CHAR(secuencia_compras.nextval); "
+                            "IF NOT UPDATING('idcompra') AND :new.idcompra is NULL THEN "
+                                ":new.idcompra := TO_CHAR(secuencia_compras.nextval); "
+                            "END IF; "
                         "END; ";
         BD::query.prepare(instruccion);
         ejecutar("Crear Trigger Key de Compras");
@@ -602,7 +610,7 @@ void BD::actualizarCompra()
     instruccion="UPDATE COMPRAS SET ";
     instruccion.append("  idsocio='"+idSocio+"'");
     instruccion.append(", idprestador='"+idPrestador+"'");
-    instruccion.append(", monto='"+compra.monto+"'");
+    instruccion.append(", monto="+compra.monto);
     instruccion.append(", cantcuota="+compra.cantcuotas);
     instruccion.append(", cuotaact="+compra.cuotaact);
     instruccion.append(", tipo='"+compra.tipo+"'");
@@ -610,7 +618,7 @@ void BD::actualizarCompra()
     instruccion.append(",  terminado="+compra.terminado);
     instruccion.append(" WHERE idcompra='"+idCompra+"'");
     BD::query.prepare(instruccion);
-    ejecutar("Actualizar Prestador");
+    ejecutar("Actualizar Compra");
 }
 
 void BD::buscarCompra(QString busqueda){

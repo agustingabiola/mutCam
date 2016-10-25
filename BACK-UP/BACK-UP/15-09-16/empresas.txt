@@ -1,0 +1,166 @@
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '100', 'RED DE SERVICIOS RURALES', '30708714026', 'RED DE SERVICIOS RURALES', '', 'Ruta 11 Km 344, 200 -Lavalle-', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '101', 'RUTA INFINITA', '', 'RUTA INFINITA', '', 'RAMOS Nº 1437 -GRAL. LAVALLE-', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '102', 'DUBGRA', '', 'DUBGRA', '', 'Calle 1 Nº 1928 -SAN CLEMENTE-', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '103', 'CHECFORO COMERCIAL', '', 'EL VASQUITO', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '104', 'DERDOI MARIA MILAGRO', '', 'MILAGRO', '', 'SALTA 555', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '105', 'ANDREANI', '', 'ANDREANI', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '106', 'CASA MILANO S.A.', '', 'CASA MILANO S.A.', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '107', 'EXPRESO RUTA 11', '', 'EXPRESO RUTA 11', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '108', 'CASASOLA', '', 'CASASOLA', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '109', 'CORRALON DE LA COSTA', '', 'CORRALON DE LA COSTA', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '110', 'VANDYSELO', '', 'VANDYSELO SRL', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '111', 'TERCIU SRL', '', 'TERSIU SRL', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '112', 'BEBIDAS DEL MAR', '', 'BEBIDAS DEL MAR', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '113', 'BERRIOS ANGELA MARIA', '', 'MORABITO', '(02257) 420 534', 'LIBERTADOR Nº 1945 - MAR DE AJO', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '114', 'COVELIA S.A.', '', 'COVELIA S.A.', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '115', 'LOGISTICA MAR DE AJO', '', 'LOGISTICA MAR DE AJO', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '116', 'CONURBANO', '', 'CONURBANO', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '117', 'ALL ROAD', '', 'ALL ROAD', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '118', 'ALTERNTIVA LABORAL', '', 'ALTERNATIVA LABORAL', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '119', 'COOPERATIVA SANTA TERESITA', '', 'COOPERATIVA SANTA TERESITA', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '120', 'DISTRIBUIDORA VAN', '', 'DISTRIBUIDORA VAN', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '121', 'BATAGLIA ROXANA', '', 'BATAGLIA ROXANA', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '122', 'GESELL QUICK', '', 'GESELL QUICK', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '123', 'FIORINI', '', 'FIORINI', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '124', 'FIORITI', '11222343434', 'FIORITI', '112343df3', 'djsfjsdfjsd', 'sdfsd@aka.com', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '42', 'CY V TRANSPORTE', '', 'C Y V TRANSPORTE', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '43', 'CASA CALIENDO', '', 'CASA CALIENDO-', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '44', 'CASA MILANO S.A.', '', 'CASA MILANO S.A.', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '45', 'CONURBANO', '', 'CONURBANO', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '46', 'COOPERATIVA SANTA TERESITA', '', 'COOPERATIVA SANTA TERESITA', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '47', 'DISTRIBUIDORA VAN', '', 'DISTRIBUIDORA VAN', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '48', 'BATAGLIA ROXANA', '', 'BATAGLIA ROXANA', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '49', 'GESELL QUICK', '', 'GESELL QUICK', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '50', 'FIORINI', '', 'FIORINI', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '51', 'ASISTENCIA LABORAL', '', 'ASISTENCIA LABORAL', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '52', 'GUANXI S.A.', '', 'GUANXI S.A', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '53', 'LATITUD 37', '', 'LATITUD 37', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '54', 'REFRESCO VILLA GESELL', '', 'REFRESCO VILLA GESELL', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '55', 'SIDECO', '', 'SIDECO', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '56', 'SOLIS', '', 'SOLIS', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '57', 'TENEBOLETA', '', 'TENEBOLETA', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '58', 'OCA', '', 'OCA', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '59', 'DEL PALACIO', '', 'DEL PALACIO', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '60', 'ECOPLATA', '', 'ECOPLATA', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '61', 'SINDICATO DE CAMIONEROS', '30533149452', 'SINDICATO DE CAMIONEROS', '(02246) 434 118', 'C 79 Nº 81', 'camioneroslacosta@hotmail.com', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '62', 'BEMITEZ OSVALDO', '', 'BENITEZ OSVALDO', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '63', 'DISTRIBUIDORA DEL MAR', '', 'DISTRIBUIDORA DEL MAR', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '64', 'MORON FOOD', '', 'MORON FOOD', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '65', 'RED DE SERVICIOS RURALES', '30708714026', 'RED DE SERVICIOS RURALES', '', 'Ruta 11 Km 344, 200 -Lavalle-', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '66', 'RUTA INFINITA', '', 'RUTA INFINITA', '', 'RAMOS Nº 1437 -GRAL. LAVALLE-', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '67', 'DUBGRA', '', 'DUBGRA', '', 'Calle 1 Nº 1928 -SAN CLEMENTE-', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '68', 'CHECFORO COMERCIAL', '', 'EL VASQUITO', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '69', 'DERDOI MARIA MILAGRO', '', 'MILAGRO', '', 'SALTA 555', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '70', 'ANDREANI', '', 'ANDREANI', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '71', 'EXPRESO RUTA 11', '', 'EXPRESO RUTA 11', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '72', 'CASASOLA', '', 'CASASOLA', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '73', 'GESTION LABORAL', '', 'GESTION LABORAL', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '74', 'CORRALON DE LA COSTA', '', 'CORRALON DE LA COSTA', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '75', 'VANDYSELO', '', 'VANDYSELO SRL', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '76', 'TERCIU SRL', '', 'TERSIU SRL', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '77', 'CORRALON CALIGARI', '', 'CALIGARI', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '78', 'CERAMICA DEL PLATA', '', 'CERAMICA DEL PLATA', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '79', 'BEBIDAS DEL MAR', '', 'BEBIDAS DEL MAR', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '80', 'PLASTIGAS', '', 'PLASTIGAS', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '81', 'BERRIOS ANGELA MARIA', '', 'MORABITO', '(02257) 420 534', 'LIBERTADOR Nº 1945 - MAR DE AJO', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '82', 'COVELIA S.A.', '', 'COVELIA S.A.', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '83', 'LOGISTICA MAR DE AJO', '', 'WEINMAR S.R.L', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '84', 'ALL ROAD', '', 'ALL ROAD', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '85', 'CY V TRANSPORTE', '', 'C Y V TRANSPORTE', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '86', 'GUANXI S.A.', '', 'GUANXI S.A', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '87', 'LATITUD 37', '', 'LATITUD 37', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '88', 'REFRESCO VILLA GESELL', '', 'REFRESCO VILLA GESELL', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '89', 'SIDECO', '', 'SIDECO', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '90', 'SOLIS', '', 'SOLIS', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '91', 'TENEBOLETA', '', 'TENEBOLETA', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '92', 'OCA', '', 'OCA', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '93', 'DEL PALACIO', '', 'DEL PALACIO', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '94', 'SANT ELENA', '', 'SANTA ELENA', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '95', 'CASA CALIENDO', '', 'CASA CALIENDO-', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '96', 'SINDICATO DE CAMIONEROS', '30533149452', 'SINDICATO DE CAMIONEROS', '(02246) 434 118', 'C 79 Nº 81', 'camioneroslacosta@hotmail.com', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '97', 'BEMITEZ OSVALDO', '', 'BENITEZ OSVALDO', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '98', 'DISTRIBUIDORA DEL MAR', '', 'DISTRIBUIDORA DEL MAR', '', '', '', 1 ) ; 
+/
+INSERT INTO EMPRESAS (idempresa, razon_social, cuit, nombre, telefono, direccion, mail, activado) VALUES (  '99', 'MORON FOOD', '', 'MORON FOOD', '', '', '', 1 ) ; 
+/

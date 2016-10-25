@@ -1,0 +1,954 @@
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00001', 'CARLOS DAMIAN', 'COMAS', '3', 'SI', 'SI', '', '', '', '00000000', '22-07-1982', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00002', 'VICTOR ADRIAN', 'DI MEGLIO', '7', 'SI', 'SI', '', 'Gaboto Nº 3123 - San Bernardo', '', '21150717', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00004', 'JUAN CARLOS', 'INCORONATO', '7', 'SI', 'SI', '', 'Av. II Nº 651 - San Clemente del Tuyu', '', '10884629', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00005', 'CARLOS ALBERTO', 'FORTE', '7', 'SI', 'SI', '', 'Tucuman Nº 230 - San Bernardo', '', '28891208', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00006', 'PABLO ANTONIO', 'DE FILIPPIS', '5', 'SI', 'SI', '', 'Constitucion Nº 2267', '', '28204813', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00007', 'LUIS ALBERTO', 'BOGADO', '6', 'SI', 'SI', '', 'Av. 17 Nº 4245 - San Clemente del Tuyu', '', '23839782', '11-05-1974', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00008', 'MIGUEL FERNANDO', 'SOLAR', '27', 'SI', 'SI', '02255-467843', 'Paseo 113 Bis Nº 1364 -Villa Gesell-', '', '13917975', '06-09-1960', '$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00009', 'JULIO CESAR', 'BALMACEDA', '28', 'SI', 'SI', '', 'Calle 54 Nº 568', '', '11397254', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00010', 'ALEJANDRO RAFAEL', 'GALLARDO', '29', 'SI', 'SI', '02255-473812', 'Av. 12 Nº 3324 - Villa Gesell', '', '25572261', '28-10-1976', '$°#Iara Nair$°#KATOGUI$°#27068237$°#37$°#Esposa$°#$°#Agata$°#GALLARDO$°#43660351$°#14$°#Hija$°#$°#$°#GALLARDO$°#52014731$°#3$°#Hija$°#$°#Joana$°#GALLARDO$°#$°#20$°#Hija$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00011', 'DAVID', 'GONZALEZ PHILIPP', '7', 'SI', 'SI', '', 'Melgacho Nº 1221 - 1D- Pinamar', '', '28750514', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00012', 'RODOLFO RAMON', 'POSDELEY', '8', 'SI', 'NO', '', 'Montevideo Nº 1381 -Mar de Ajo-', '', '22729853', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00015', 'EMANUEL NICOLAS', 'SORIA', '3', 'NO', 'NO', '', 'Calle 6 Nº 1725 -Villa Gesell-', 'Empresa ALL ROAD', '31922505', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00016', 'NAZARENO AMADEO', 'BARRETO', '5', 'SI', 'NO', '', 'Cazon Nº 1921', '', '29268083', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00017', 'CLAUDIO CESAR', 'CABRAL', '5', 'SI', 'NO', '', 'Calle 142 y av. 14 -Villa Gesell-', '', '26706004', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00018', 'NESTOR ARTURO', 'FARIAS', '5', 'SI', 'NO', '', 'Leandro Alem Nº 949', '', '22894585', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00019', 'GASTON LUCIANO', 'FRIAS', '5', 'SI', 'NO', '', 'Argel Nº 1482', '', '28628032', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00020', 'NICOLAS', 'GARCIA', '5', 'SI', 'NO', '', 'San Petersburgo casa 14 -Ostende-', '', '33148948', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00021', 'FRANCISCO JOSE', 'LUNA', '5', 'NO', 'NO', '', 'Lenguado Nº 260 -Pinamar-', '', '26370597', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00022', 'ROBERTO DANIEL', 'MADRID', '5', 'SI', 'NO', '', 'Del Cazon Nº 2239', '', '31145716', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00023', 'VICTOR WILLIAN', 'PALAVECINO', '5', 'NO', 'NO', '', 'Chesburgo Nº 1282', '', '30824272', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00024', 'DANIEL ALFREDO', 'PASOS', '5', 'SI', 'NO', '', 'Del Melgacho Nº 1239 -Pinamar-', '', '20039441', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00025', 'VICTOR ORLANDO', 'ROMAN RAMIREZ', '5', 'SI', 'NO', '', 'Urtubey Nº 2808 -Pinamar-', '', '92869955', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00026', 'JUAN ANIBAL', 'ROMERO', '5', 'SI', 'NO', '', 'Rivadavia Nº 1839 -Pinamar-', '', '29849052', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00027', 'LUIS', 'BUOSCIO', '30', 'NO', 'NO', '', 'Paseo 111 y Av. 12 -Villa Gesell-', '', '11692348', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00028', 'CRISOLOGO', 'BURGOS', '30', 'NO', 'NO', '', 'Boulevar Nº 4081 -Villa Gesell-', '', '12363198', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00029', 'ARIEL', 'CEJAS', '30', 'NO', 'NO', '', 'Calle 6 Nº 1544', '', '27788821', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00030', 'PABLO ROBERTO', 'MORENO', '30', 'NO', 'NO', '', 'Calle 105 e/13 y 14 -Villa Gesell-', '', '29139212', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00031', 'ALBERTO', 'BENITEZ GONZALEZ', '6', 'NO', 'SI', '', 'El Ancla y Tierra del Fuego -Mar de Ajó-', '', '93852711', '29-03-1982', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00032', 'MARIO RAMON', 'BENITEZ GONZALEZ', '6', 'NO', 'SI', '', 'Blanco Encalada Nº 780 -Mar de Ajo-', '', '94579682', '24-05-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00033', 'MARIANO', 'BERRIOS', '6', 'NO', 'NO', '', 'Sarmiento Nº 413 -Villa Gesell-', '', '27684482', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00035', 'ROMAN WALTER', 'BERRIOS', '6', 'SI', 'SI', '02257-15543835', 'Calle 34 Nº 256 - Santa Teresita-', '', '29037486', '29-12-1981', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00036', 'CLAUDIO ARIEL', 'FLEITAS', '6', 'NO', 'SI', '', 'Manuel Rico Nº 729 -Mar de Ajó-', '', '25154826', '26-04-1976', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00037', 'JUAN DOMINGO', 'IBARRA', '6', 'NO', 'NO', '', 'Calle 14 Nº 1225 -Santa Teresita-', '', '26833835', '25-04-1978', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00038', 'WALTER ARIEL', 'JORGE', '6', 'NO', 'NO', '', 'Av. XII Nº 3781 - San Clemente-', '', '17263322', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00039', 'PABLO EZEQUIEL', 'LEDESMA', '6', 'NO', 'NO', '', 'Montevideo Nº 1825 -Mar de Ajo-', '', '32059669', '10-05-1987', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00040', 'JUAN JOSE', 'LEIVA', '6', 'NO', 'NO', '', 'Olmos Nº 230', '', '26012332', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00041', 'FABIAN ALBERTO', 'MONTENEGRO', '6', 'NO', 'NO', '', 'Libres del Sur Nº 303 -Mar de Ajo-', '', '26992145', '07-08-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00042', 'MARCELO', 'MONTENEGRO', '6', 'NO', 'NO', '02257-15555471', 'Roberto Davila -General Lavalle-', '', '29568175', '27-04-1982', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00043', 'MIGUEL ANGEL', 'MORENO', '6', 'NO', 'NO', '02246-15482317', 'Calle 35 Nº 510 -Santa Teresita-', '', '18378887', '05-07-1967', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00044', 'MARCELO', 'PETRONE', '6', 'NO', 'NO', '02246-524294', 'Calle 9 N 351-Santa Teresita-', '', '27565408', '08-08-1979', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00045', 'GUSTAVO ARIEL', 'ROTELA', '6', 'NO', 'NO', '02257-15410273', 'Montevideo Nº 1611 -Mar de Ajo-', '', '27585835', '22-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00046', 'GERARDO JOSE', 'SALAS', '6', 'NO', 'SI', '', 'Julio Campos Nº 256 -Mar de Ajó-', '', '28923437', '28-09-1981', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00047', 'ALFONSO SEBASTIAN', 'SANCHEZ', '6', 'NO', 'SI', '', 'Saconi Nº 1789 -Mar de Ajo-', '', '33056488', '18-08-1987', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00049', 'JAVIER ALEJANDRO', 'COLIMODIO', '10', 'NO', 'NO', '02257-460108', 'Calle 4 Nº 7510 -Mar del Tuyu-', '', '29568361', '06-10-1982', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00050', 'FACUNDO EDUARDO', 'EGUIA', '10', 'SI', 'NO', '02246-520765', 'Calle 53 Nº 606 -Santa Teresita-', '', '32036310', '07-04-1986', '$°#Valentina$°#EGUIA$°#45740946$°#11$°#Hija$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00051', 'RAUL MARTIN', 'MOLINARI', '10', 'NO', 'NO', '', 'Calle 61 Nº 255 -Mar del Tuyu-', '', '25785990', '27-01-1977', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00052', 'ALEJANDRO JOSE', 'MOLTEASIO', '10', 'SI', 'NO', '', 'Calle 3 Nº 6225 -Mar del Tuyu-', '', '28150744', '11-07-1981', '$°#Veronica $°#MONTANA$°#33267801$°#28$°#Esposa$°#$°#Candela$°#MOLTEASIO$°#47063087$°#10$°#Hija$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00053', 'MARIO MAXIMILIANO', 'MOLTEASIO', '10', 'NO', 'NO', '', 'Calle 3 Nº 6232 -Mar del Tuyu-', '', '24269636', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00054', 'WALTER LUIS', 'BLANCO', '11', 'NO', 'NO', '', 'Calle 6 Nº 681 -Mar del Tuyu-', '', '29568205', '04-07-1982', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00055', 'CARLOS', 'CARRIZO', '11', 'SI', 'NO', '', 'Calle 54 Nº 785', '', '29568478', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00056', 'ISAIAS', 'DIAZ', '11', 'NO', 'NO', '', '2 Bis e/80 y 81 -Mar del Tuyu-', '', '36443404', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00057', 'EMILIO GUSTAVO', 'FARIAS', '11', 'NO', 'NO', '', 'Calle 48 Nº 670 -Santa Teresita-', '', '25785953', '17-09-1976', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00058', 'HUMBERTO EMILIO', 'FARIAS', '11', 'NO', 'NO', '', 'Calle 48 Nº 670 -Santa Teresita-', '', '30680040', '27-11-1983', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00059', 'SEBASTIAN MATIAS', 'GEREZ', '11', 'NO', 'NO', '', 'Santa Maria de Oro y El Cano - San Bernardo-', '', '40256453', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00060', 'HUGO ARIEL', 'PAZ', '11', 'NO', 'NO', '', 'Belgrano Nº 448 -Costa Azul-', '', '25593956', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00062', 'SERGIO', 'GOMEZ', '12', 'NO', 'NO', '', 'Calle 36 Nº 1170', '', '25410429', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00063', 'MARTIN', 'MONTENEGRO', '12', 'NO', 'NO', '', 'Calle 43 Nº 1483 - Santa Teresita-', '', '32334861', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00064', 'JOSE LUIS', 'MORENO', '12', 'NO', 'NO', '', 'Calle 10 Nº 634 -Santa Teresita-', '', '17020996', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00066', 'HECTOR ORLANDO', 'COMAS', '13', 'SI', 'SI', '', 'Calle 7 e/47 y 48 -Santa Teresita-', '', '32328234', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00068', 'DANIEL ARTURO', 'PUCCIARELLO', '13', 'SI', 'NO', '', 'Gaboto Nº 2133 -San Bernardo-', '', '26186864', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00069', 'EZEQUIEL', 'VILLAR', '13', 'NO', 'NO', '', 'Calle 17 Nº 256 -San Clemente-', '', '36597504', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00070', 'AGUSTIN WALBERTO', 'GONZALEZ', '14', 'NO', 'NO', '02257-15550748', 'Calle 48 Nº 1440 -Santa Teresita-', '', '12887444', '28-01-1959', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00071', 'JUAN HECTOR', 'LUDWING', '14', 'NO', 'NO', '02246-526771', 'Calle 14 Nº 882 -Santa Teresita-', '', '17751628', '25-04-1966', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00072', 'JORGE', 'MEDINA', '14', 'NO', 'NO', '', 'Calle 15 Nº 555', '', '12213186', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00073', 'OMAR DANIEL', 'ACHUCARRO', '7', 'NO', 'NO', '', 'Gaboto Nº 3166 -San Bernardo-', '', '12439562', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00074', 'JOSE DANIEL', 'ACIAR', '7', 'NO', 'NO', '', 'AV. Naval 698 -San Clemente-', '', '34553474', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00075', 'HERNAN', 'ACUÑA', '7', 'NO', 'SI', '', 'Av. Naval e/16 y 17 - San Clemente del Tuyú -', '', '31348314', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00076', 'MARIANO CRISTIAN', 'AGUIRRE', '7', 'NO', 'SI', '', 'Calle 23 Nº 706 -Las Toninas-', '', '28764318', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00077', 'EMILIO RAMON', 'ALCIDES', '7', 'SI', 'NO', '', 'Calle 46 Nº 1350 -Santa Teresita-', '', '10406322', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00078', 'JAVIER', 'ALDAY', '7', 'NO', 'NO', '', 'Calle 21 e/24 y 62 Nº 185', '', '23458425', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00080', 'JULIO CESAR', 'AMARILLA', '7', 'SI', 'NO', '', 'Calle 41 e/4 y 5 - Santa Teresita -', '', '93972094', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00081', 'ARMANDO EDUARDO', 'ASNAL', '7', 'NO', 'NO', '', 'Ruta 11 Km 405 -Gral. Madariaga-', '', '13612925', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00082', 'HUGO MIGUEL', 'AVELLANEDA', '7', 'NO', 'NO', '', 'Calle 8 Nº 2180 -Santa Teresita-', '', '12183595', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00083', 'RAUL', 'BARRIONUEVO', '7', 'SI', 'NO', '', 'Asturias Nº 3318 -San Clemente-', '', '21407742', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00084', 'ROBERTO OSCAR', 'BARRIONUEVO', '7', 'NO', 'NO', '', 'Av. 6 e/9 y 10 -San Clemente-', '', '23801615', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00085', 'ANA SILVANA', 'BARROSO', '7', 'SI', 'NO', '', 'Chesburgo Nº 21 Nº 2123 -Ostende-', '', '31745760', '01-01-1980', '$°#LUCIANO $°#JUAREZ$°#45.806.312$°#11$°#HIJO$°#$°#BAUTISTA$°#BARROSO$°#53.146.753$°#03$°#HIJO$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00086', 'JONATAN EMILIANO', 'BARROSO', '7', 'NO', 'NO', '', 'Calle 21 Nº 1511 -Las Toninas-', '', '29568393', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00087', 'RUBEN DARIO', 'BARROSO', '7', 'NO', 'NO', '', 'Calle 36 Nº 745 -Santa Teresita-', '', '27739159', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00088', 'CARLOS MARTIN', 'BONAFINI', '7', 'NO', 'NO', '', 'Calle 29 Nº 714 -Santa Teresita-', '', '22344048', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00089', 'NESTOR GABRIEL', 'BURGOS', '7', 'NO', 'NO', '', 'Madariaga Nº 2143 -San Bernardo del Tuyú-', '', '17922181', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00090', 'MARTA ALEJANDRA', 'CANGELES', '7', 'NO', 'NO', '', 'Av. 28 e/108 y 109 -Villa Gesell-', '', '23737537', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00091', 'MARCOS JAVIER', 'CASTILLO', '7', 'NO', 'NO', '', 'Paseo 113 y Av. 31 -Villa Gesell-', '', '26603617', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00093', 'RAMON FRANCISCO', 'COMAS', '7', 'SI', 'SI', '', 'Calle 50 e/3 y 4 -Mar del Tuyú-', '', '29111640', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00095', 'WALTER ESTEBAN', 'CONDE', '7', 'NO', 'NO', '', 'Calle 8 Nº 459 -Santa Teresita-', '', '13942752', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00096', 'CARLOS GUILLERMO', 'CONTRERAS', '7', 'NO', 'SI', '', 'Calle 51 Nº 666 -San Clemente del Tuyú-', '', '20469163', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00098', 'CARLOS HORACIO', 'CORRO', '7', 'NO', 'SI', '', 'Av. 20 Nº 217 -Villa Gesell-', '', '13626296', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00099', 'MIGUEL ANGEL', 'CUELLO', '7', 'NO', 'NO', '', 'Calle 29 Nº 710 -Las Toninas-', '', '31712251', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00100', 'ARTURO JAVIER', 'CUEVAS RODRIGUEZ', '7', 'SI', 'NO', '', 'Circunvalacion e/113 y 113 Bis -Villa Gesell-', '', '24764881', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00101', 'RUBEN DARIO', 'CUEVAS RODRIGUEZ', '7', 'NO', 'NO', '', 'Av. 31 e/113 y 113 Bis -Villa Gesell-', '', '27357140', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00102', 'ADRIAN MARCELO', 'DEL BARCO', '7', 'NO', 'NO', '', 'Loria y El Cairo -Ostende-', '', '26098706', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00103', 'CRISTIAN', 'DURE', '7', 'NO', 'NO', '', 'Dagonal 21 e/6 y 7 -Santa Teresita-', '', '34342528', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00104', 'FANI', 'ESCOBAR', '7', 'NO', 'NO', '', 'Catamarca Nº 1439 -Ostende-', '', '20491539', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00105', 'EZEQUIEL ANIBAL', 'ESQUIVEL', '7', 'NO', 'NO', '', 'Av 29 e/113 y 113 Bis -Villa Gesell-', '', '24114159', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00106', 'EVER', 'FERNANDEZ', '7', 'NO', 'NO', '', 'Calle 33 Nº 1986 -Las Toninas-', '', '29864290', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00107', 'CLOBIS RODOLFO', 'FERREYRA', '7', 'NO', 'NO', '', 'Av. Naval Nº 388 -San Clemente-', '', '26833870', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00108', 'DANIEL GERARDO', 'FERREYRA', '7', 'SI', 'NO', '', 'Matheu Nº 253 -Ostende-', '', '29211594', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00109', 'MARCOS PAULO', 'FERREYRA', '7', 'NO', 'NO', '', 'Calle 39 e/10 y 11 -San Clemente-', '', '26833977', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00110', 'VICTOR ABEL', 'GARCIA', '7', 'NO', 'NO', '', 'Calle 8 Nº 1520 -San Clemente-', '', '27139080', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00111', 'JULIO JAVIER', 'GATTI', '7', 'NO', 'NO', '', 'Calle 38 e/Naval y Naval Oeste -San Clemente-', '', '26851329', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00112', 'ARIEL OSCAR', 'GIMENEZ', '7', 'NO', 'NO', '', 'Paseo 127 e/29 y 29 Bis -Villa Gesell-', '', '28528729', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00113', 'EDUARDO OSCAR', 'GIMENEZ', '7', 'NO', 'NO', '', '120 Y Av. 31 -Villa Gesell-', '', '29268431', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00114', 'CRISTIAN', 'GODOY', '7', 'NO', 'NO', '', 'Calle 13 e /56 y 57 -Mar del Tuyú-', '', '30680096', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00115', 'DIEGO', 'GODOY', '7', 'NO', 'NO', '', 'Calle 36 Nº 1602 -Las Toninas-', '', '30680095', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00116', 'ALBERTO JOSE', 'GOMEZ', '7', 'NO', 'NO', '', 'Calle 5 Nº 973 -Las Toninas-', '', '17347578', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00117', 'CARLOS', 'GOMEZ', '7', 'NO', 'NO', '', 'Turin e/Italia y La Plata -Ostende-', '', '28039088', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00118', 'DANIEL ALFREDO', 'HERNANDEZ', '7', 'NO', 'NO', '', 'Av. 13 e/121 y 122 -Villa Gesell-', '', '20027297', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00119', 'JORGE EDUARDO', 'HERNANDEZ', '7', 'NO', 'NO', '', 'Av. 28 Nº 826 -Villa Gesell-', '', '14647536', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00120', 'CRISTIAN FLAVIO', 'HERRERA', '7', 'NO', 'NO', '', 'Av. 25 e/101 y 102 -Villa Gesell-', '', '23393735', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00121', 'PABLO ANGEL', 'IMPAVIDO', '7', 'NO', 'NO', '', 'Montevideo Nº 2420 -Mar de Ajó-', '', '30526530', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00122', 'PEDRO ALEJANDRO', 'INVERNIZZE', '7', 'NO', 'SI', '', 'Calle 33 y Naval -San Clemente-', '', '23740030', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00123', 'DAMIANO ANTONIO', 'JARA', '7', 'NO', 'NO', '', 'Calle 40 Nº 1509 - Santa Teresita-', '', '31406821', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00124', 'RAMON ARIEL', 'JARA', '7', 'NO', 'NO', '', 'Calle 80 Nº 1240 -San Clemente del Tuyú-', '', '28662296', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00125', 'ALEJANDRO ESTEBAN', 'JOAQUIN', '7', 'NO', 'SI', '', 'Santiago del Estero 2355 -San Bernardo del Tuyú-', '', '18748643', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00126', 'SILVINA', 'LABANCA', '7', 'NO', 'NO', '', 'Bolivia Nº 129 -Gral. Madariaga-', '', '22117269', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00128', 'WALTER', 'LEZCANO', '7', 'NO', 'NO', '', 'Calle 14 y 35 -Las Toninas-', '', '35801644', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00129', 'FELIPE DANIEL', 'LOPEZ DE SABANDO', '7', 'NO', 'SI', '', 'Calle 8 Nº 829 -San Clemente-', '', '14954030', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00130', 'ALBERTO', 'LUDUEÑA', '7', 'NO', 'NO', '', 'AV. 28 E/108 Y 109 Casa 11 -Villa Gesell-', '', '14914615', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00131', 'RUBEN ALBERTO', 'LUDUEÑA', '7', 'NO', 'NO', '', '113 E/ 28 Y27 -Villa Gesell-', '', '17510654', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00132', 'GUSTAVO JESUS', 'MALDONADO', '7', 'NO', 'NO', '', 'Urquiza Nº 664 -Ostende-', '', '20807147', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00133', 'LEONARDO ANTONIO', 'MARTINEZ', '7', 'NO', 'NO', '', 'Calle 41 Nº 320 -San Clemente-', '', '26352116', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00134', 'JULIO CESAR', 'MERCADAL CAPOTE', '7', 'SI', 'SI', '', 'La Argentina Nº 2187 -Mar de Ajó-', '', '93034854', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00135', 'CRISTIAN ANDRES', 'MORALES', '7', 'NO', 'SI', '', 'Calle 72 y Av. 21 -San Clemente-', '', '26832560', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00136', 'MARIO RICARDO', 'MORALES', '7', 'NO', 'NO', '', 'Calle 11 Nº 1131 -Santa Teresita-', '', '16110371', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00137', 'ROMINA GISELLA', 'MOREIRA', '7', 'NO', 'NO', '', 'San Francisco de Asís Nº 1472 -Ostende-', '', '31796993', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00139', 'GUILLERMO', 'MOYANO', '7', 'NO', 'NO', '', 'Calle 10 Nº 237 -San Clemente del Tuyú-', '', '27044138', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00140', 'LUIS ALBERTO', 'MOYANO', '7', 'NO', 'NO', '', 'Calle 10 e/39 y 40 -San Clemente del Tuyú-', '', '28081717', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00141', 'MARTIN MIGUEL', 'PADILLA', '7', 'NO', 'NO', '', 'Calle 54 Nº1122 -Mar del Tuyú-', '', '21443335', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00142', 'SERGIO VICTOR', 'PALAVECINO', '7', 'NO', 'NO', '', 'Circunvalación 1842 -Villa Gesell-', '', '28295245', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00143', 'MARIO FABIAN', 'POISSONNEAU', '7', 'NO', 'NO', '', 'Calle 27 e/9 y Naval -San Clemente del Tuyú-', '', '23183113', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00144', 'GONZALO EMILIO', 'POLO', '7', 'NO', 'NO', '', 'Av. 17 Nº 3715 -San Clemente del Tuyú-', '', '29472676', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00146', 'HUGO FERNANDO', 'RAMIREZ', '7', 'SI', 'NO', '', 'Calle 11 Nº 168', '', '27646632', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00147', 'ANSELMO', 'RAMIREZ LOPEZ', '7', 'NO', 'NO', '', 'Urquiza Nº 664 -Ostende-', '', '93064117', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00148', 'ROBERTO ANIBAL', 'RAMOS NUÑEZ', '7', 'NO', 'NO', '', 'Calle 38 e/Costanera y 2 -Santa Teresita-', '', '92273435', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00149', 'JOSE DAVID', 'RODRIGUEZ', '7', 'NO', 'NO', '', 'Av. 6 Nº 143 -San Clemente del Tuyú-', '', '25785969', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00150', 'PABLO LORENZO DANIEL', 'RODRIGUEZ', '7', 'SI', 'SI', '', 'AV.6 nº 735 -San Clemente del Tuyú-', '', '20460173', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00151', 'ROBERTO ARIEL', 'SALAMEN', '7', 'NO', 'NO', '', 'Calle 10 Nº 719 -Santa Teresita-', '', '28193626', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00152', 'LUIS', 'SALVATIERRA', '7', 'NO', 'NO', '', 'E. Garcia Nº 2710 -San Clemente del Tuyú-', '', '22604459', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00153', 'ANTONIO ALBERTO', 'SARMIENTO', '7', 'NO', 'NO', '', 'Calle 40 Nº 641 -Santa Teresita-', '', '20664232', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00154', 'CLUDIO ADRIAN', 'SILVA', '7', 'NO', 'NO', '', 'Anspanth y Gaona -Ostende-', '', '32146171', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00155', 'MARIO JOAQUIN', 'SILVA', '7', 'NO', 'NO', '', 'Calle 20 Nº 2925 -San Clemente del Tuyú-', '', '20748674', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00156', 'DANIEL RAMON', 'SOTELO', '7', 'NO', 'NO', '', 'Los Andes Nº 950 -Valeria del Mar-', '', '22335944', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00157', 'DIEGO FRANCISCO', 'SUAREZ', '7', 'NO', 'NO', '', 'Dackar Nº 2636 Dep. 4 -Ostende-', '', '23603137', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00158', 'ROQUE', 'TAMBURRINO', '7', 'NO', 'NO', '', 'Calle 36 Nº 446 -Santa Teresita-', '', '21549500', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00159', 'NERY FELIPE', 'TORRES GOMES', '7', 'NO', 'NO', '', 'Calle 114 y Av. 28 - Villa Gesell-', '', '93875373', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00160', 'CARLOS DAMIAN', 'UVIEDO', '7', 'NO', 'NO', '', 'Av. 2 e/7 y 8 --San Clemente del Tuyú-', '', '27265075', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00161', 'WALTER', 'SABALA BALBORIN', '7', 'NO', 'NO', '', 'Calle 31 y 44 -Las Toninas-', '', '27044132', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00162', 'SERGIO DARIO', 'ZAPATA', '7', 'NO', 'SI', '', 'La Margarita Nº 740 -Mar de Ajó-', '', '21030680', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00163', 'EZEQUIEL MARTIN', 'ZAYA', '7', 'NO', 'NO', '', 'Dackar Nº 1951 -Ostende-', '', '36336612', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00164', 'MARCELO', 'FORTINA', '31', 'NO', 'NO', '', 'Calle 10 Nº 251 -Santa Teresita-', '', '18487203', '29-05-1967', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00165', 'JUAN CLAUDIO', 'MEDINA', '31', 'NO', 'NO', '', 'Calle 14 e/33 y 34 -Santa Teresita-', '', '23183040', '11-01-1973', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00166', 'JOSE MARIA', 'PERINI', '31', 'NO', 'NO', '02257-15537025', 'Calle 44 e/15 y 16 -Santa Teresita-', '', '21599513', '15-08-1970', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00167', 'MAXIMILIANO', 'RUIZ', '31', 'NO', 'NO', '02246-15481671', 'Calle 41 Nº 1236 -Santa Teresita-', '', '28804861', '05-08-1981', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00168', 'ANGEL OSCAR', 'CINGOLANI', '31', 'NO', 'NO', '022457-15663780', 'Calle 1 Nº 2129 -Santa Teresita-', '', '23573901', '20-09-1971', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00169', 'MIGUEL ANGEL', 'VILLALBA', '31', 'NO', 'NO', '02246-420601', 'Calle 52 Nº 1476 -Mar del Tuyú-', '', '33454375', '11-07-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00171', 'JONATAN', 'VIÑOLES', '31', 'NO', 'NO', '02257-15586836', 'Calle 6 Nº 1740 -Santa Teresita-', '', '31662098', '12-06-1985', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00172', 'ADRIAN GABRIEL', 'BALMACEDA', '28', 'NO', 'NO', '', 'Sacconi Nº 1987 -Mar de Ajó-', '', '25240020', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00173', 'MARCOS ISAIAS', 'COMAS', '28', 'NO', 'NO', '', 'Calle 8 Nº 2180 -Santa Teresita-', '', '18859490', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00174', 'CARLOS GABRIEL', 'CORDOBA', '28', 'NO', 'NO', '', 'Dorrego Nº 171 -Dolores-', '', '31236905', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00175', 'JORGE RAFAEL', 'DIUBERTTI', '28', 'NO', 'NO', '', 'Rio Uruguay Nº 251 -Mar de Ajó-', '', '24645856', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00176', 'MARIO JAVIER', 'ESTEVES', '28', 'NO', 'NO', '', 'Julio Campos Nº 906 -Mar de Ajó-', '', '22680468', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00177', 'CARLOS RAMON', 'FERNANDEZ', '28', 'NO', 'NO', '', 'Guiraldes Nº 375 -Mar de Ajó-', '', '14337897', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00178', 'ATILIO', 'GIRARDI', '28', 'NO', 'NO', '', 'Espora Nº 1507 -Mar de Ajó-', '', '13270357', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00179', 'RUBEN DARIO', 'MAGGIO', '28', 'NO', 'NO', '', 'Machado Nº 1010 -Dolores-', '', '13239854', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00180', 'FRANCISCO', 'MORAN', '28', 'NO', 'NO', '', 'Richeri Nº 671 -Dolores-', '', '12887595', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00182', 'MIGUEL ANGEL', 'RODRIGUEZ', '28', 'NO', 'NO', '', 'Estanislao del Campo y Torino -Mar de Ajó-', '', '18118947', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00183', 'RICARDO M.', 'ROMERO', '28', 'NO', 'NO', '', 'Belgrano Nº 1900 -Dolores-', '', '23075432', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00184', 'NESTOR', 'BULACIO', '43', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00185', 'MARIO JOAQUIN', 'CENTURION', '43', 'NO', 'NO', '', 'Corrientes Nº 2475 -Gral. Alvarado-', '', '31184874', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00186', 'JUAN ALBERTO', 'GONZALEZ', '43', 'NO', 'NO', '', 'Jupiter y Cangrejo -Pinamar-', '', '26706090', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00187', 'FABIAN', 'IRASTORZA', '43', 'NO', 'NO', '', 'Corvina Nº 1180 -Pinamar-', '', '16845307', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00188', 'SERGIO NICOLAS', 'OVIEDO', '3', 'NO', 'NO', '', 'Canada Nº 1922 -Pinamar-', 'Empresa DISTRIBUIDORA VAN', '27171038', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00189', 'ENRIQUE', 'ALVAREZ', '29', 'NO', 'NO', '', 'Calle 111 Bis e/14 y 15 -Villa Gesell-', '', '11916835', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00190', 'ENRIQUE EMANUEL', 'ALVAREZ', '29', 'NO', 'NO', '', 'Calle 112 Bis e/14 y 15 -Villa Gesell-', '', '38936344', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00191', 'FERNANDO ARIEL', 'ALVAREZ', '29', 'NO', 'NO', '', 'Paseo 112 Bis y Av. 14 -Villa Gesell-', '', '32267323', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00192', 'RODOLFO LUIS', 'BUHLER', '29', 'NO', 'NO', '', 'Paseo 114 e/26 y 27 -Villa Gesell-', '', '25464900', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00193', 'HUGO ORLANDO', 'CABRAL', '29', 'NO', 'NO', '', 'Calle 105 Bis Nº 356 -Villa Gesell-', '', '26098761', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00194', 'ANGEL MARCELO', 'CARCCIOCHI', '29', 'NO', 'NO', '', 'Paseo 142 y Av. Boulevard -Villa Gesell-', '', '22499428', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00195', 'LUIS', 'CASTELLANO', '29', 'NO', 'NO', '', 'Av. Boulevard Nº 2221 -Villa Gesell-', '', '27605106', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00196', 'ROBERTO OSCAR', 'DE MAIO', '29', 'NO', 'NO', '', 'Turin e/Italia y La Plata -Ostende-', '', '29268328', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00197', 'FELIX CARLOS', 'DIAZ', '29', 'NO', 'NO', '', 'Paseo 106 y Av. 24 -Villa Gesell-', '', '28842904', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00198', 'JUAN', 'DORREGO', '29', 'NO', 'NO', '', 'Paseo 109 e/14 y 15 -Villa Gesell-', '', '32471972', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00199', 'ALDO', 'GIMENEZ', '29', 'NO', 'NO', '', 'Calle 114 y Av. 28 -Villa Gesell-', '', '10169341', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00201', 'FERNANDO ANDRES', 'GONZALEZ CUEVAS', '29', 'NO', 'NO', '', 'Av. 16 y Paseo 124 -Villa Gesell-', '', '30873584', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00202', 'JUAN PABLO', 'GONZALEZ CUEVAS', '29', 'NO', 'NO', '', 'Av. 16 y Paseo 124 -Villa Gesell-', '', '29849442', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00203', 'MIGUEL ALFONZO', 'GONZALEZ', '29', 'NO', 'NO', '', 'Calle 124 y 15 -Villa Gesell-', '', '25041194', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00204', 'MONICA BEATRIZ', 'GONZALEZ', '29', 'NO', 'NO', '', 'Burriquetas 225 -Pinamar-', '', '20301853', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00205', 'EUSEBIO', 'GUERRERO VACA', '29', 'NO', 'NO', '', 'Av. 14 e/105 Bis y 106 -Villa Gesell-', '', '92475439', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00206', 'MIGUEL ANGEL', 'MAGALLANES', '29', 'NO', 'NO', '', 'Paseo 115 e/Av. 29 y 29 Bis. -Villa Gesell-', '', '23013556', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00207', 'EDUARDO', 'MARTINO', '29', 'NO', 'NO', '', 'Calle 106 Bis y 14 Nº 29 -Villa Gesell-', '', '22169852', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00208', 'HECTOR ARIEL', 'MONGE', '29', 'NO', 'NO', '', 'AV. 13 Paseo 121 y 22 -Villa Gesell-', '', '23393843', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00209', 'RAUL ALFREDO', 'MONGE', '29', 'NO', 'NO', '', 'Av 13 Paseo 121 y 22 -Villa Gesell', '', '24224481', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00210', 'DANIEL', 'MONTENEGRO', '29', 'NO', 'NO', '', 'Paseo 112 y 28 -Villa Gesell-', '', '14133205', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00211', 'CRISTIAN', 'PEREZ', '29', 'NO', 'NO', '', 'Paseo 126 Nº 2572 -Villa Gesell-', '', '26900345', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00212', 'GLADYS', 'RODRIGUEZ', '29', 'NO', 'NO', '', 'Paseo 123 Nº 1372 -Villa Gesell-', '', '18454416', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00213', 'ISMAEL HORACIO', 'RUIZ', '29', 'NO', 'NO', '', 'Calle 106 Bis y Av. 22 -Villa Gesell-', '', '18372422', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00214', 'VICTOR ELPIDIO', 'SANTILLAN', '29', 'NO', 'NO', '', 'Calle 113 Bis y Av. 29 -Villa Gesell-', '', '27519881', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00215', 'MANUEL OSCAR', 'VALENZUELA', '29', 'NO', 'NO', '', 'Paseo 115 y 29 Bis -Villa Gesell-', '', '20743424', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00216', 'FACUNDO', 'ACHUCARRO', '16', 'NO', 'SI', '', 'Gaboto Nº 3166 -San Bernardo-', '', '35827685', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00217', 'ADRIAN VICTOR', 'ANDINO', '16', 'NO', 'NO', '', 'Blanco Encalada 640 -Mar de Ajó-', '', '16755021', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00218', 'JUAN RAMÓN', 'CORDA', '16', 'NO', 'NO', '', 'Sarandi 1640 -Mar de Ajó-', '', '30034565', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00219', 'MARCELO EDUARDO', 'ESPERON', '16', 'NO', 'NO', '', 'Stella Maris nº 1448 -Mar de Ajó-', '', '25240093', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00220', 'MARCELO', 'UNALES', '19', 'NO', 'NO', '', 'Calle 42 e/3 y 4', '', '31662038', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00221', 'CARLOS', 'BASSO', '17', 'NO', 'NO', '', 'Av. 7 e/12 y 13 -Villa Gesell-', '', '26706145', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00222', 'MAXIMILIANO DAVID', 'RUIZ DIAZ', '19', 'NO', 'SI', '', 'Calle 1 Nº 6881 -Mar del Tuyú-', '', '36524706', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00223', 'HORACIO', 'ESPIRO', '17', 'NO', 'NO', '', 'Av. 25 e/6 y 7 -Villa Gesell-', '', '24815322', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00224', 'HERNAN', 'LOPEZ', '17', 'NO', 'NO', '', 'Paseo 17 e/3 y 4 -Villa Gesell-', '', '25686193', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00225', 'MIGUEL ANGEL', 'MONTAÑEZ', '17', 'NO', 'NO', '', 'Av. 6 e/123 y 124 -Villa Gesell-', '', '24808612', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00226', 'GUSTAVO', 'PAEZ', '17', 'NO', 'NO', '', 'Av. 31 e/14 y 15 -Villa Gesell-', '', '21623112', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00227', 'MARTIN', 'FLORENTINO CASERES', '18', 'SI', 'NO', '', 'Calle 36 e/ 9 y 10 -Santa Teresita-', '', '25240071', '01-01-1980', '$°#PAZ IRINA$°#CACERES$°#49.678.542$°#6$°#HIJA$°#$°# FLORENCIA ANAHI$°#PECOTCHE$°#33.398.959$°#27$°#ESPOSA$°#$°#$°#$°#$°#$°#$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00228', 'FELIPE', 'FERNANDEZ', '18', 'NO', 'NO', '', 'Calle 13 y 39 -Santa Teresita-', '', '92226937', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00229', 'DARIO', 'GUZMAN', '18', 'NO', 'NO', '', 'Calle 72 Nº 1916 -San Clemente del Tuyú-', '', '22540016', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00230', 'RAUL', 'PELAZZINI', '18', 'NO', 'NO', '', 'Diagonal 20 Nº 1234 -Santa Teresita-', '', '31998922', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00231', 'CRISTIAN', 'BROCHERO', '7', 'NO', 'SI', '', 'Calle 38 N 529 -San Clemente del Tuyú-', '', '26086211', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00232', 'MANUEL', 'CELDANE', '19', 'NO', 'SI', '', 'Calle 32 Nº 594 -San Clemente del Tuyu-', '', '20837211', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00233', 'RUBEN', 'CHEREWISKY', '19', 'NO', 'SI', '', 'Calle 9 Nº 2286 -Santa Teresita-', '', '33546579', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00234', 'AARON ANTONIO', 'COMAS', '19', 'NO', 'SI', '', 'Calle 8 Nº 2180 -Santa Teresita-', '', '38537286', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00235', 'RAMON ALEJO', 'DIMITRIO', '19', 'NO', 'SI', '', 'Calle 10 -San Clemente del Tuyú-', '', '29211629', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00236', 'FEDERICO', 'ETCHEVEST', '19', 'NO', 'SI', '', 'Calle 17 Nº 1168 -Las Toninas-', '', '30533734', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00237', 'JUAN JONATHAN', 'FERREYRA', '19', 'NO', 'SI', '', 'Av Naval Nº 1282 -San Clemente del Tuyú-', '', '34342599', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00239', 'ROBERTO CARLOS', 'IBARRA', '3', 'NO', 'SI', '', 'Calle 47 Nº 673 -Santa Teresita-', '', '26215437', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00240', 'JAVIER ARNALDO', 'INVERNNIZZE', '19', 'NO', 'SI', '', 'Naval y 17 -San Clemente del Tuyú-', '', '33190275', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00241', 'CARLOS', 'KERDOKAS', '19', 'NO', 'NO', '', 'Zuviria Nº1649 -San Bernardo-', '', '16996440', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00242', 'JOSE', 'LOPEZ DE SABANDO', '19', 'NO', 'SI', '', 'Calle 8 Nº 829 -San Clemente del Tuyú-', '', '30680079', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00243', 'GABRIEL', 'LUNA', '19', 'NO', 'SI', '', 'Calle 36 Nº 1635 -Santa Teresita-', '', '38351423', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00244', 'ULISES', 'MALDONADO', '19', 'NO', 'NO', '', 'Paseo 115 y 29 Bis -Villa Gesell-', '', '35868956', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00245', 'LUCAS RICARDO', 'MARTINEZ', '19', 'NO', 'SI', '', 'Ruta 11 Nº 397 -Pinamar-', '', '40146140', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00246', 'RICARDO JULIAN', 'MARTINEZ', '19', 'NO', 'SI', '', 'Ostende', '', '21670017', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00247', 'MEDINA TABARE', 'CARLOS', '19', 'NO', 'SI', '', 'Calle 72 y Av. 22 Nº 2022 -San Clemente-', '', '36524719', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00248', 'CARLOS NELSON SIMON', 'MELO', '19', 'NO', 'SI', '', 'Calle 54 -San Clemente del Tuyú-', '', '31662108', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00249', 'DARIO FABIAN', 'MORALES', '7', 'NO', 'SI', '', 'Calle 72 y Av. 21 Nº 1 -San Clemente del Tuyú-', '', '34342582', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00250', 'JONATAN JOSE HORACIO MORENO', 'MORENO', '7', 'NO', 'SI', '', 'Calle 34 y 12 -Santa Teresita-', '', '33546628', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00251', 'JUAN', 'PEREYRA', '19', 'NO', 'SI', '', 'Galicia Nº 4258 -San Clemente del Tuyú-', '', '29211502', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00252', 'WALTER EZEQUIEL', 'RODRIGUEZ', '19', 'NO', 'NO', '', 'Calle 31 e/16 y 18 -Las Toninas-', '', '31348236', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00253', 'PEDRO ANDRES', 'RUIZ DIAZ', '7', 'NO', 'SI', '', 'Naval Oeste -San Clemente del Tuyú-', '', '28377033', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00254', 'JORGE VICENTE', 'RUIZ DIAZ', '3', 'NO', 'NO', '', 'Calle 1 Nº 6881 -Mar del Tuyú-', '', '37388242', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00255', 'MARIA LUZ', 'ARAUJO', '20', 'NO', 'NO', '02268- 512151', 'La Plata Sur Nº 50 -Maipú-', '', '31968385', '08-09-1986', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00256', 'DIEGO FEDERICO', 'BUCETA', '20', 'NO', 'NO', '02268-515595', 'Italia Nº 626 -Maipú-', '', '28519424', '13-06-1981', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00257', 'MATIAS GABRIEL', 'CHIOINO', '20', 'NO', 'NO', '2268-15 511698', 'Necochea Nº 1255 -Maipú-', '', '36848310', '24-02-1992', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00258', 'MARINA FERNANDA', 'CIRILIANO', '20', 'NO', 'NO', '', 'Peregrini Nº 186 -Maipú-', '', '24339304', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00259', 'WALTER ARIEL', 'DURE', '20', 'NO', 'NO', '', 'Juncal Nº 353 -Maipú-', '', '21759885', '06-03-1971', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00260', 'ESTEBAN', 'FAGOAGO', '20', 'NO', 'NO', '', 'Pelegrini Nº 117 -Maipú-', '', '33039948', '01-12-1987', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00261', 'LUIE ARIEL', 'GOIZUETA', '20', 'NO', 'NO', '02268-513810', 'Barrio Unión Casa 10 -Maipú-', '', '26767639', '12-09-1978', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00262', 'MARIA LAURA', 'HEREDIA', '20', 'NO', 'NO', '', 'Juncal Casa 8 Manzana 94 -Maipú-', '', '30956290', '12-08-1984', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00263', 'DANIELA CRISTINA', 'HERNANDEZ', '20', 'NO', 'NO', '', 'Juncal Nº 473 -Maipú-', '', '31968388', '30-09-1986', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00264', 'MARIA ANA', 'PORTILLA', '20', 'NO', 'NO', '', 'Sarmiento Nº 980 -Maipú-', '', '23571362', '08-12-1973', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00265', 'MARIA BEATRIZ', 'LEDESMA', '20', 'NO', 'NO', '', 'Caquel Huinkul Nº 65 -Maipú-', '', '24864905', '28-09-1975', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00266', 'CARLOS ALBERTO', 'MARIA', '20', 'NO', 'NO', '02268-15404317', 'Juncal Nº 428 -Maipú-', '', '23571315', '22-09-1973', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00267', 'JUAN ANIBAL', 'PELIZZA', '20', 'NO', 'NO', '02268-518493', 'Necochea Nº 1051 -Maipú-', '', '13209941', '29-06-1957', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00268', 'MARTIN CARLOS', 'RIVADAVIA', '20', 'SI', 'NO', '02268-15 514157', 'Juncal Nº 669 -Maipú-', '', '31424633', '22-01-1985', '$°#Santino$°#RIVADAVIA$°#34424633$°#6$°#Hijo$°#$°#Valeria$°#GOIZUETA$°#29139300$°#34$°#Esposa$°#$°#$°#$°#$°#$°#$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00269', 'CARLOS CESAR', 'ROMAY', '20', 'NO', 'NO', '', 'Italia Nº 456 -Maipú-', '', '29551022', '08-08-1982', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00270', 'ROQUE ALBERTO', 'SUAREZ', '20', 'NO', 'NO', '', 'Kakel Huinkul Nº 949 -Maipú-', '', '28519307', '20-09-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00271', 'CARMEN CECILIA', 'TORRES', '20', 'NO', 'NO', '02668-15511167', 'España Nº 358 -Maipú-', '', '22169887', '03-09-1971', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00273', 'PABLO ARGENTINO', 'ARISTA', '21', 'NO', 'NO', '', 'Calle 15 Nº 1632 -Santan Teresita-', '', '23452449', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00274', 'CARLOS', 'CASINELLI', '21', 'NO', 'NO', '', 'Calle 39 e/15 y 16 -Santan Teresita-', '', '25270365', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00275', 'PEDRO', 'FERNANDEZ NOCEDA', '21', 'NO', 'NO', '', 'Calle 3 Nº 517 -Santan Teresita-', '', '92214748', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00276', 'MAXIMILIANO DANIEL', 'FUNES', '21', 'NO', 'NO', '', 'Calle 37 Nº 963 -Santan Teresita-', '', '30266932', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00277', 'ELVIO EDUARDO', 'LEIVA', '21', 'SI', 'NO', '', 'Calle 9 Nº 901 -Santan Teresita-', '', '12213069', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00278', 'ENRIQUE ERASMO', 'SCAZZARO', '21', 'NO', 'NO', '', 'Calle 7 Nª 890 Depto. 2 -Santan Teresita-', '', '18546570', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00279', 'SERGIO ALEJANDRO', 'FINELLI', '8', 'NO', 'NO', '', 'Marmol Nº 273 -Mar de Ajó-', '', '16889698', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00280', 'RAMO ANTONIO', 'LEGAL', '8', 'NO', 'NO', '', 'Stella Maris Nº 1448 - Mar de Ajó-', '', '16110381', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00281', 'EDUARDO RUBEN', 'MENDOZA', '8', 'NO', 'NO', '', 'Castelli Nº 310 -Mar de Ajó-', '', '27521281', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00282', 'WALTER OSVALDO', 'MIALUCCI', '8', 'NO', 'NO', '', 'Julio Campos Nº 301', '', '21582194', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00283', 'JOSE DAMIAN', 'MINJOLOU', '8', 'NO', 'NO', '', 'Geraldin Nº 341 -Mar de Ajó-', '', '28443201', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00284', 'PABLO EZEQUIEL', 'MIJOLOU', '8', 'NO', 'NO', '', 'Geraldin Nº 341 -Mar de Ajó-', '', '32334970', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00285', 'HORACIO DAMIAN', 'PEREYRA', '8', 'NO', 'NO', '', 'Palacios Nº 596', '', '32656563', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00286', 'MARCELO DANIEL', 'VALENCIA', '8', 'NO', 'NO', '', 'Azopardo Nº 2457 -Mar de Ajó-', '', '16110318', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00287', 'JORGE GUSTAVO', 'VILLAGRA', '8', 'NO', 'NO', '', 'Calle 10 Nº 847 -Santa Teresita-', '', '23658528', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00288', 'GUSTAVO', 'CATRINI', '32', 'NO', 'NO', '', 'Calle 82 Nº 383 -Mar del Tuyú-', '', '22848667', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00289', 'WALTER', 'FIGUEROA', '32', 'SI', 'SI', '', 'Calle 65 Nº 333 Depto. 2 -Mar del Tuyú-', '', '33655732', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00290', 'JAVIER', 'IVANOF', '32', 'NO', 'NO', '', 'Estanislao del Campo Nº 150 -Mar de Ajó-', '', '28081834', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00291', 'JORGE', 'LA PLACA', '32', 'NO', 'NO', '', 'Calle 54 Nº 303 -Mar del Tuyú-', '', '13104276', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00292', 'GASTÓN', 'MARTINEZ', '32', 'SI', 'SI', '', 'Calle 7 e746 y 47 -Santa Teresita-', '', '30160520', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00293', 'CARLOS DANIEL', 'MOJICA', '32', 'NO', 'NO', '', 'Calle 36 Nº 1270 -Santa Teresita-', '', '26890389', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00294', 'NAHUEL OSCAR', 'PORTELA', '32', 'NO', 'NO', '', 'Calle 36 Nº 1398 -Santa Teresita-', '', '36443374', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00295', 'RUBEN DARIO', 'ASTUDILLO', '27', 'NO', 'NO', '02252-522022', 'Calle 28 Nº 522 -San Clemente-', '', '23374086', '15-05-1973', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00296', 'ANGELA ROSALIA', 'BARROS RUIZ', '27', 'NO', 'NO', '02255-468015', 'Av. 12 Nº 535 -Villa Gesell-', '', '28972477', '19-11-1981', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00297', 'CARLOS IGNACIO', 'HERRERA', '27', 'NO', 'NO', '02246-15669673', 'Calle 50 Nº 1103 -Santa Teresita-', '', '22356089', '08-09-1971', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00298', 'SUSANA', 'IBAÑEZ', '27', 'NO', 'NO', '', 'Cangrejo e/Totora y Apolo -Pinamar-', '', '14867191', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00299', 'MARIO AGUSTIN', 'LOPEZ', '27', 'NO', 'NO', '02255-15509539', 'Paseo 106 y Av. 18 Nº 16 -Villa Gesell-', '', '31957246', '03-12-1985', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00300', 'GUSTAVO ADRIAN', 'MALDONADO', '27', 'NO', 'NO', '', 'Circunvalación Nº 4129 -Villa Gesell-', '', '24476841', '18-07-1975', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00302', 'HUGO OSCAR', 'MOLINA', '27', 'NO', 'NO', '', 'Paseo 106 e/12 y 14 -Villa Gesell-', '', '12063023', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00303', 'MAURICIO MARCOS', 'MORENO', '27', 'NO', 'NO', '02254-497508', 'Sparsa Nº 367 -Ostende-', '', '22417953', '10-11-1971', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00304', 'RAUL HECTOR', 'TOLOSA', '27', 'NO', 'NO', '', 'Paseo 102 e/Av. 21 y Av. 23 -Villa Gesell-', '', '23847312', '17-09-1964', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00305', 'RUBEN OMAR', 'BATISTA', '22', 'NO', 'NO', '', 'Av. 14 Nº 419 -Villa Gesell-', '', '11677915', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00306', 'JUAN DE DIOS', 'CASTRO', '22', 'NO', 'NO', '', 'Paseo 124 e/7 y 8 -Villa Gesell-', '', '18484368', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00307', 'MIGUEL ATILIO', 'ESCOBAR', '22', 'NO', 'NO', '', 'Paseo 105 e/13 y 14 -Villa Gesell-', '', '16017672', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00308', 'HECTOR DANIEL', 'LUQUET', '22', 'NO', 'NO', '', 'Av. 27 e Paseo 104 y 105 -Villa Gesell-', '', '20037007', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00309', 'JORGE ALBERTO', 'MARTINEZ', '22', 'NO', 'NO', '', 'Paseo 119 Nº 1578 -Villa Gesell-', '', '23098146', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00310', 'HECTOR MARIO', 'MICIELI', '22', 'NO', 'NO', '', 'Av. 4 e/Paseo 108 y 109 -Villa Gesell-', '', '13104236', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00311', 'RUBEN EDUARDO', 'NEGRETE', '22', 'NO', 'NO', '', 'Paseo 119 Av. 29 Bis', '', '24452498', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00312', 'JUAN CARLOS', 'POSE', '22', 'NO', 'NO', '', 'Av. 13 Nº 1323 -Villa Gesell-', '', '20756096', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00313', 'FERNANDO', 'ROJAS', '22', 'SI', 'NO', '', 'Paseo 119 Av. 31 -Villa Gesell-', '', '28972162', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00314', 'FACUNDO', 'SANTARELLI', '22', 'NO', 'NO', '', 'Paseo 113 Nº 718 -Villa Gesell-', '', '30251400', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00315', 'JOSE', 'DE LA PORTA', '23', 'NO', 'NO', '', 'Av 7 Nº 1628 -Villa Gesell-', '', '12747998', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00316', 'JAVIER MARCELO', 'AGUIRRE', '24', 'NO', 'NO', '', 'Paz Casa Nº 91 -Dolores-', '', '18436320', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00317', 'JOSE MARIA', 'MADRID', '24', 'NO', 'NO', '', 'Pelegrini Nº 975 -Dolores-', '', '29785049', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00318', 'SERGIO VICTORINO', 'MAMONDI', '24', 'NO', 'NO', '', 'Balcarce Nº 398 -Dolores-', '', '23801677', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00319', 'IGNACIO RAUL', 'PELAZINI', '24', 'NO', 'NO', '', 'Arenales Nº 720 -Dolores-', '', '21529683', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00320', 'MARCOS GASTON', 'SOTELO', '24', 'NO', 'NO', '', 'Yrigoyen Nº 923 -Dolores-', '', '21782687', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00321', 'ERNESTO HORACIO', 'BARRENECHE', '25', 'NO', 'NO', '02267-420217', 'Calle 17 Nº 25 -Gral. Madariaga-', '', '24224585', '08-08-1974', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00322', 'FABIAN', 'PEREYRA', '29', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00323', 'CARLOS MAURICIO', 'MENDOZA', '25', 'NO', 'NO', '02254-406294', 'Dante Nº 2036 -Ostende-', '', '26002400', '30-11-1977', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00324', 'JEANETTE STEFANIA', 'COMAS', '3', 'NO', 'NO', '', 'Calle 8 Nº 2180 -Santa Teresita-', '', '38537284', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00325', 'JULIA ANGELICA', 'SARRASINO SOSA', '3', 'NO', 'NO', '11-15 6108 6464', 'Esquiú 736 -San Bernardo del Tuyú-', 'julysarrasino@hotmail.com', '92084252', '21-08-1961', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00326', 'ADRIAN GUSTAVO', 'BLANCO', '3', 'NO', 'NO', '', 'Calle 6 Nº 68 -Mar del Tuyú-', '', '21532231', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00327', 'LEONARDO', 'AGUERO', '3', 'NO', 'NO', '', 'Calle 6 Nº 2245 -Santa Teresita-', '', '21772738', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00328', 'PAMELA', 'COMAS', '3', 'NO', 'NO', '', 'Calle 7 e/6 y 47 -Santa Teresita-', '', '31191725', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00329', 'JOSÉ', 'COMAS', '3', 'NO', 'NO', '', 'Calle 7 e/46 y 47 -Santa Teresita-', '', '12683664', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00330', 'PABLO ESTEBAN', 'SOLAR', '3', 'NO', 'NO', '', 'Av. Bolulevar Nº 2525 -Villa Gesell-', '', '22465943', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00331', 'VANESA', 'ETCHEZAR', '3', 'NO', 'NO', '', 'Moreno Nº 583 -Maipú-', '', '92775237', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00332', 'EDGARDO', 'EGUIA', '3', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00334', 'RICARDO ALBERTO', 'IBAROLA', '7', 'NO', 'NO', '', 'Calle 14 Nº 765-Santa Teresita-', '', '13867247', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00335', 'FERNANDO', 'TRONCOSO', '7', 'NO', 'NO', '', 'Olmos y Pueyrredon -Mar de Ajó-', '', '24645805', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00336', 'ADRIANA', 'BELLIDO', '3', 'NO', 'NO', '', 'Calle 5 Nº 7231 -Mar del Tuyú-', '', '17192712', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00343', 'LUIS', 'LUERO', '7', 'NO', 'NO', '', 'Calle 10 y 19 -Las Toninas-', '', '27271581', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00347', 'PABLO DANIEL', 'HERNANDEZ', '7', 'NO', 'NO', '', 'Av. Ces -Ostende-', '', '34127792', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00348', 'MALCON ERIC JASON', 'BELTRAN', '3', 'NO', 'NO', '(02257)15 589 194', 'Calle 71 Nº 81 - MAR DEL TUYU-', '', '26568445', '14-04-1978', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00349', 'MIGUEL ANGEL', 'ALVAREZ', '11', 'NO', 'NO', '', 'Calle 72 Nº 350 -Mar del Tuyu-', '', '28278375', '02-12-1978', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00350', 'ESTEBAN GABRIEL', 'PEREYRA', '28', 'NO', 'NO', '', '', '', '25803741', '01-09-1968', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00351', 'ALEJANDRO ADRIAN', 'IBARRA', '3', 'SI', 'NO', '02257-539577', 'Diagonal Cobos Nº 1265 -Mar de Ajo-', 'Empresa RED DE SERVICIOS RURALES', '23525390', '08-12-1973', '$°#Leonel$°#IBARRA$°#43458666$°#14$°#Hijo$°#$°#Ana Luz$°#IBARRA$°#44934850$°#12$°#Hija$°#$°#Sofia$°#IBARRA$°#46556968$°#10$°#Hija$°#$°#Oriana$°#IBARRA$°#53996679$°#$°#Hija$°#$°#Gisel$°#JARA$°#18792724$°#35$°#Esposa$°#$°#$°#$°#$°#$°#$°#$°#$°#$°#$°#$°#$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00352', 'PABLO', 'TORNATORE', '21', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00353', 'PATRICIO', 'UHLENBURG', '21', 'NO', 'NO', '', '', '', '00000000', '15-05-1984', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00354', 'LUCAS JOSÉ', 'DE ARCE', '20', 'NO', 'NO', '', 'San Martin Nº 640 -Maipú-', '', '33039905', '23-09-1987', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00355', 'LEONARDO DANIEL', 'LUDUEÑA', '19', 'NO', 'NO', '', '', '', '35084089', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00356', 'MARTIN EZEQUIEL', 'RODRIGUEZ', '22', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00357', 'MATIAS', 'RODRIGUEZ', '13', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00358', 'MAURO', 'MADRID', '5', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00359', 'RAUL', 'ZALAZAR', '5', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00360', 'NELSON', 'BOGADO', '5', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00361', 'MARIANA', 'CIRILLANO', '20', 'NO', 'NO', '', 'Pellegrini Nº 586 -Maipú-', '', '24339304', '05-03-1965', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00362', 'FEDERICO', 'ROCHA', '7', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00363', 'VICTOR', 'MENDOZA', '7', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00364', 'JOSE ALFREDO', 'BENITEZ', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00365', 'MARIO', 'RODRIGUEZ', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00366', 'EMANUEL', 'PEREYRA', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00367', 'ORLANDO MIGUEL', 'MARIANI', '20', 'SI', 'NO', '', '9 de Julio Nº 71 -Maipú-', '', '21808309', '01-01-1980', '$°#TERESA$°#GARZILAZO$°#34.457.323$°#26$°#ESPOSA $°#$°#VALENTIN$°#MARIANI$°#48.988.336$°#06$°#HIJO$°#$°#GERONIMO$°#MARIANI$°#51.245.507$°#03$°#HIJO$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00368', 'CARLOS DANIEL', 'CARRARA', '29', 'NO', 'NO', '(02255)457 501', 'PASEO 123 Nº 1372 -VILLA GESELL-', '', '16625933', '20-12-1963', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00369', 'MAXIMILIANO', 'CARRIZO', '44', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00370', 'RAMIRO GABRIEL', 'BATISTA', '22', 'NO', 'NO', '(02255)15 403 313', '106 E/23 Y 24 -VILLA GESELL-', '', '27357246', '23-08-1979', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00371', 'EDUARDO', 'CASCO', '29', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00372', 'HUGO', 'CARRIZO', '44', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00373', 'GONZALO', 'CEJAS', '44', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00374', 'LEDESMA', 'LERCHER', '6', 'NO', 'NO', '', '', '', '00000000', '16-06-1978', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00375', 'GUSTAVO', 'QUIROGA', '22', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00376', 'RAUL', 'BARATCHERTE', '42', 'NO', 'NO', '', '', '', '00000000', '01-08-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00377', 'PABLO EZEQUIEL', 'MENDEZ', '27', 'NO', 'NO', '02255-15530304', 'Av. 14 Nº 2049 -Villa Gesell-', '', '26603731', '20-07-1978', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00379', 'HECTOR HORACIO', 'CEMBORAIN', '27', 'NO', 'NO', '', 'Nicaragua y Pinamar -Madariaga-', '', '22630756', '05-04-1972', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00380', 'JULIO ALBERTO', 'RUEDA', '3', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00381', 'JORGE REFAEL', 'FAZZIO', '27', 'NO', 'NO', '', 'Paseo 123 Nº 795 -Villa Gesell-', '', '27170938', '25-07-1978', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00382', 'HUGO OSVALDO', 'GIMENEZ', '19', 'NO', 'NO', '', '', '', '30200832', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00383', 'MONTENEGRO', 'CLAUDIO', '6', 'NO', 'NO', '', '', '', '00000000', '28-03-1967', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00384', 'JUAN PEDRO', 'HERRERA', '11', 'SI', 'NO', '02257-15523606', 'Casa 14 -COSTA AZUL-', '', '25270354', '04-12-1976', '$°#Nahuel Agustin$°#HERRERA$°#43458654$°#15$°#Hijo$°#$°#Sandra Veronica, $°#PACHECO$°#25583325$°#39$°#Esposa$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00385', 'JOSÉ MARIA', 'FARIAS', '11', 'SI', 'NO', '', 'Calle 14 Nº 2035 -Santa Teresita-', '', '28081873', '10-03-1980', '$°#Isabela$°#FARIAS ISABELA$°#$°#1$°#Hija$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00386', 'CLAUDIO HERNAN', 'FARIAS', '3', 'SI', 'NO', '', 'GRAL. LAVALLE', 'Empresa RUTA INFINITA', '25786000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00387', 'GONZALO VICTOR', 'RODRIGUEZ', '13', 'SI', 'NO', '', '', '', '00000000', '01-01-1980', '$°#FLORENCIA$°#ALVAREZ$°#48.171.753$°#8$°#HIJA$°#$°#SOLEDAD$°#FERRI$°#25.182.479$°#39$°#ESPOSA$°#$°#CELSO$°#CALVEYRA$°#$°#$°#PADRE$°#$°#MARIA TERESA$°#ESTELE$°#$°#$°#MADRE$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00388', 'CRISTIAN EZEQUIEL', 'VELAZCO', '11', 'NO', 'NO', '(02246) 15 50 78 45', 'Mar del Tuyu', '', '36779709', '19-08-1999', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00389', 'ENZO', 'MONTANINO', '29', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00390', 'LUCIANO ALEJANDRO', 'DUMRAUF', '7', 'NO', 'NO', '', 'Av. 28 e/108 y 109 -Villa Gesell-', '', '38938174', '09-08-1995', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00391', 'PABLO ALEJANDRO', 'MAGALLANES', '3', 'SI', 'NO', '(02252)41 77 50', 'Calle 33 e/6 y 7 -San Clemente-', 'DUBGRA', '26777626', '08-08-1978', '$°#BRENDA$°#MAGALLANES$°#41.569.191$°#$°#HIJA$°#$°#THIAGO$°#MAGALLANES$°#44.962.442$°#$°#HIJO$°#$°#MORENA$°#MAGALLANES$°#48.092.171$°#$°#HIJA$°#$°#VERONICA$°#ETCHEVES$°#29.568.513$°#$°#ESPOSA$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00392', 'JONATHAN', 'FERNANDEZ QUEVEDO', '44', 'SI', 'NO', '', '', '', '00000000', '01-01-1900', '$°#NICOLAS MAXIMILIANO$°#MALTRASIO$°#40.291.261$°#17$°#HIJO$°#$°#$°#$°#$°#$°#$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00393', 'MARCELO', 'REYNOSO', '42', 'NO', 'NO', '', '', '', '00000000', '10-03-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00394', 'SEBASTIAN NICOLAS', 'LEGAL', '8', 'NO', 'NO', '(02257) 616 626', 'Stella Maris Nº 1448 -Mar de Ajo-', '', '36625497', '26-12-1991', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00395', 'NESTOR ALEJANDRO', 'DINGUES', '29', 'NO', 'NO', '', '', '', '00000000', '01-01-1962', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00396', 'ELVIO ENRIQUE', 'LOIZA', '29', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00397', 'MARCELO LUJAN', 'PEREYRA', '29', 'NO', 'NO', '', '119 Y 19 -Villa Gesell-', '', '25872947', '11-09-1977', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00398', 'PABLO', 'RODRIGUEZ', '29', 'NO', 'NO', '', '', '', '30231129', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00399', 'ISMAEL', 'RUIZ ROMO', '29', 'NO', 'NO', '', '', '', '18880465', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00401', 'GUILLERMO', 'GAONA', '21', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00402', 'GUILLERMO', 'GRECO', '21', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00403', 'LEONARDO', 'MANZU', '21', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00404', 'FABIAN', 'GALANELLI', '44', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00405', 'RAMON', 'MARTINEZ', '36', 'NO', 'NO', '', 'RAMOS MEJIAS 207 -MAIPU-', '', '12422131', '06-04-1957', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00406', 'ALEJANDRO WALTER', 'HERNANDEZ', '36', 'NO', 'NO', '', 'LAVALLE SUR CASA 16 -MAIPU-', '', '23571357', '11-11-1973', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00407', 'LUIS', 'BARRIOS', '36', 'NO', 'NO', '', 'LEBHENSON 214 -MAIPU-', '', '11025214', '04-05-1956', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00408', 'CARLOS GUSTAVO', 'PASO', '36', 'NO', 'NO', '', 'MADERO Mº 1646 -MAIPU-', '', '20273756', '21-08-1969', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00409', 'LUCAS DANIEL', 'BOIGUES', '3', 'NO', 'NO', '', 'DE LOS IMIGRANTES BRRIO. UNION -MAIPU-', 'Empresa MILAGRO', '27035092', '19-04-1979', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00410', 'CRISTIAN FABIAN', 'AVILA', '3', 'NO', 'NO', '', 'Calle 9 Nº 260 -San Clemente-', 'Empresa ANDREANI', '22716325', '19-03-1973', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00411', 'JOSE', 'GUIRAUDO', '3', 'NO', 'NO', '', 'Yrigoyen Nº 560 -Dolores-', 'Empresa ANDREANI', '30533516', '01-12-1983', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00412', 'REINALDO CLAUDIO', 'FINK', '3', 'NO', 'NO', '', 'Ceibo 8N -Gral. Lavalle-', 'Empresa EXPRESO RUTA 11', '20974673', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00413', 'LUIS ALBERTO', 'ASTUDILLO', '3', 'NO', 'NO', '', 'Av. 17 y 83 -San Clemente-', 'Empresa ESPRESO RUTA 11', '32649098', '01-02-1987', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00414', 'RAMON HORACIO', 'NUÑEZ', '3', 'NO', 'NO', '', 'Av. 27 e/106 Bis y 107 -Villa Gesell-', 'Empresa CASASOLA', '31472504', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00415', 'CARLOS ALBERTO', 'PEREYRA', '3', 'NO', 'NO', '', 'Paseo 101 y Av. 17 -Villa Gesell-', 'Empresa CASASOLA', '18372408', '22-01-1966', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00416', 'JOSE', 'LARREA', '19', 'NO', 'NO', '', 'Cnada Nº 749', '', '30390429', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00417', 'BRAIAN IGNACIO', 'PASO', '19', 'NO', 'NO', '', '', '', '36602570', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00418', 'DARIO OSCAR', 'VERA', '19', 'NO', 'NO', '', 'Praga Nº 995', '', '34494092', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00419', 'DAMIAN ANGEL', 'DOS SANTOS', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00420', 'CRISTIAN EDUARDO', 'ASNAL', '19', 'NO', 'NO', '', '', '', '35409914', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00421', 'LUCAS', 'FUNES', '19', 'SI', 'NO', '', 'Calle 75 Nº 82 -San Clemente-', '', '33079227', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00422', 'WALTER', 'LEZCANO', '19', 'SI', 'NO', '', '', '', '18335402', '18-07-1963', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00423', 'BLAS ANTONIO', 'ARCE', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1970', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00424', 'NAHUEL', 'MENA', '19', 'NO', 'NO', '', 'Calle 8 Nº 2180 -Santa Teresita-', '', '40233645', '07-09-1992', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00425', 'JOEL CRISTIAN', 'AGUIRRE', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1971', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00426', 'WALTER HUGO', 'RIOS', '7', 'SI', 'NO', '', 'Calle 36 e/12 y 13 -Sanata Teresita-', '', '24645938', '24-07-1975', '$°#FRANCO$°#RIOS$°#49.370.197$°#6$°#HIJO$°#$°#LAUTARO NICOLAS$°#RIOS$°#47.228.886$°#9$°#HIJO$°#$°#VALERIA BEATRIZ$°#RUIZ$°#28.804.665$°#33$°#ESPOSA$°#$°#$°#$°#$°#$°#$°#$°#$°#$°#$°#$°#$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00427', 'JUAN', 'ACOSTA', '7', 'NO', 'NO', '', 'Calle 13 e/77 y 78 -Mar del Tuyu-', '', '36443308', '12-07-1991', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00428', 'GILBERTO DAVID', 'MENA', '7', 'NO', 'NO', '', 'Calle 91 Nº 4188 -San Clemente-', '', '34342508', '16-08-1988', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00429', 'GERARDO ATILIO', 'MARTINEZ', '19', 'NO', 'NO', '', 'Calle 27 y 30 - Las Toninas-', '', '35421310', '09-07-1990', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00430', 'OSCAR MARCELO', 'PEREZ', '7', 'NO', 'NO', '', 'Calle 39 Nº 1333 -Santa Teresita-', '', '24525664', '17-07-1967', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00431', 'AGUSTIN', 'QUIROGA', '41', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00432', 'ALBERTO JORGE', 'FUCCI', '7', 'NO', 'NO', '', 'Martin Pescador Nº 1516 -Mar de Ajo-', '', '08637498', '09-12-1951', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00433', 'ALEJANDRO MATIAS', 'FERREYRA', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00434', 'ROBERTO OSCAR', 'RISSO', '19', 'NO', 'NO', '', 'Calle 16 -Las Toninas-', '', '14940451', '04-08-1962', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00435', 'PEDRO JAVIER', 'MEDINA', '7', 'NO', 'NO', '', 'Av. 7 Nº 80 -Villa Gesell-', '', '26603562', '15-08-1977', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00436', 'MIGUEL ANGEL', 'BUIDE', '7', 'NO', 'NO', '', 'Calle 40 y Naval -San Clemente-', '', '30680054', '12-04-1983', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00437', 'DANTE JOSE', 'ASNAL', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00438', 'DIEGO', 'QUIROGA', '28', 'NO', 'NO', '', '', '', '29451527', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00439', 'ROBERTO CARLOS', 'AGOSTINO', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00440', 'GABRIEL DAMIAN', 'BUSTAMANTE', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00441', 'FERNANDO EZEQUIEL', 'BUSTOS', '19', 'SI', 'NO', '', 'Andes Nº 1039 -Ostende-', '', '32472670', '01-01-1980', '$°#Yanina$°#Rivero$°#32.456.867$°#23$°#Esposa$°#$°#Fernando$°#Bustos$°#52.624.776$°#$°#hijo$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00442', 'DIEGO', 'BARGAS', '19', 'NO', 'NO', '', '', '', '39594741', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00443', 'ALBERTO MARTIN', 'CANETTO', '19', 'NO', 'NO', '', '', '', '24645807', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00444', 'SERGIO DANIEL', 'CONTI', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00445', 'IAN EZEQUIEL', 'CORBELLINI', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00446', 'JORGE ARIEL', 'CUEVAS', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00447', 'ANIBAL', 'DAS LUZ', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00448', 'MIGUEL ANGEL', 'DOS SANTOS', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00449', 'JUAN JOSE', 'GOMEZ', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00450', 'LEANDRO', 'GOMEZ', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00451', 'VICENTE', 'JORGE', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00452', 'ALEJANDRO', 'LECUNA', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00453', 'DIEGO RAMON', 'LEIVA', '19', 'SI', 'NO', '', 'Pinamar', '', '32425880', '01-01-1980', '$°#DAIANA$°#AGUIRRE$°#32.497.391$°#29$°#ESPOSA$°#$°#DIEGO RAMON$°#LEIVA$°#49.683.937$°#6$°#HIJO$°#$°#LUDMILA$°#LEIVA$°#48.775.915$°#7$°#HIJA$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00454', 'VICTOR JESUS', 'MARCHI', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00455', 'NICOLAS ANTONIO', 'MARTINEZ', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00456', 'ADRIAN', 'MONTENEGRO', '19', 'NO', 'NO', '', '', '', '28081843', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00457', 'JUAN', 'PAVEZ', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00458', 'MIGUEL', 'PONCE', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00459', 'SEBASTIAN', 'RAMIREZ GARCIA', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00460', 'CESAR EDUARDO', 'SALCEDO', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00461', 'DAMIAN', 'SILVA', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00462', 'MILTON', 'VALENZUELA', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00463', 'MARCELO OSCAR', 'VAQUERO', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00464', 'EZEQUIEL', 'VILLALBA', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00465', 'MARCOS', 'YAPURA', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00466', 'OMAR', 'ZALAZAR', '19', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00467', 'DANIEL', 'PRESA', '7', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00468', 'MACIEL FABIAN', 'RODRIGUEZ', '7', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00469', 'ANDRES', 'IBAÑEZ', '44', 'NO', 'NO', '', '', '', '00000000', '01-01-1900', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00470', 'IAN', 'LLANOS SACHA', '19', 'NO', 'NO', '', '', '', '39274662', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00471', 'CARLOS EDUARDO', 'PACHECO', '11', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00472', 'JONATAN', 'TOLEDO', '27', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00473', 'RENE', 'PANASSOWFCZ', '8', 'SI', 'NO', '', 'Rio Uruguay Nº 95 -Mar de Ajo-', '', '30361149', '01-01-1980', '$°#ROMINA INES$°#LOOSE$°#31.572.751$°#$°#$°#$°#$°#$°#$°#$°#$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00474', 'CESAR', 'ROMERO', '41', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00475', 'MATIAS', 'SALICA', '41', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00476', 'JUAN', 'VALENZUELA', '29', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00477', 'DARIO', 'VELLUTI', '21', 'NO', 'NO', '', 'C 4 Nº 5854', '', '29271892', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00478', 'RUBEN ALFREDO', 'DA LUZ', '41', 'SI', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00479', 'MICHAEL', 'FERREYRA', '41', 'SI', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00480', 'MARCOS', 'FLORES', '21', 'NO', 'NO', '', 'C 15 Nº 1515', '', '27739231', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00481', 'JORGE', 'MEDINA', '21', 'NO', 'NO', '', 'C 15 Nº 555', '', '12213186', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00482', 'RUBEN', 'SOSA', '18', 'SI', 'NO', '(02246) 430 885', 'C4 Nº 6270 -Mar del Tuyu-', '', '23050559', '18-10-1972', '$°#MARINA VERONICA$°#FARIAS$°#23.525.460$°#$°#ESPOSABREND$°#$°#BRENDA$°#SOSA$°#43.470.120$°#$°#HIJA$°#$°#$°#$°#$°#$°#$°#$°#$°#$°#$°#$°#$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00483', 'JOSE CARLOS', 'GIL GARCIA', '19', 'SI', 'NO', '', 'Villa Gesell', '', '93944603', '18-01-1982', '$°#ALEXIA$°#SARRAUDE$°#35.830.193$°#24$°#ESPOSA$°#$°#ALEJO BENJAMIN$°#GIL $°#48846.265$°#7$°#HIJO$°#$°#MATEO VALENTIN$°#GIL $°#50.140.884$°#4$°#HIJO$°#$°#ALMA ALANIS$°#GIL $°#53.202.661$°#1$°#HIJA$°#$°#$°#$°#$°#$°#$°#$°#', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00484', 'PABLO', 'MACIEL', '41', 'SI', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00485', 'PABLO', 'VERA', '27', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00486', 'CLAUDIO', 'ALARCON', '29', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00487', 'CRISTIAN HERNAN', 'VILLAGRA', '8', 'NO', 'NO', '(02246) 15 440 139', 'C 13 Nº 5085', '', '33546513', '14-03-1988', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00488', 'EMANUEL', 'PEREYRA', '41', 'SI', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00489', 'JUAN JOSE', 'DE LUCA', '48', 'NO', 'NO', '', 'C 72 Nº 299', '', '10887947', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00490', 'STAVRAKIS', 'STAVRAKIS', '48', 'NO', 'NO', '', 'Montevideo 1647 -Mar de Ajo-', '', '32423505', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00491', 'MATIAS', 'RICCARDI', '48', 'NO', 'NO', '', 'C 75 Nº 524 -Mar del Tuyu-', '', '29679337', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00492', 'EMANUEL', 'RICCARDI', '48', 'NO', 'NO', '', 'C 2 Nº 6750', '', '32675837', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00493', 'NICOLAS', 'ALVAREZ', '48', 'NO', 'NO', '', 'C C8 Nº 635', '', '26407701', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00494', 'CRISTIAN', 'REIVAS', '48', 'NO', 'NO', '', 'C 95 Nº 346', '', '31538656', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00495', 'JULIO CESAR', 'ALVAREZ', '48', 'NO', 'NO', '', 'C 35 Nº 1324', '', '13886114', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00496', 'PABLO', 'IRIBARNE', '49', 'NO', 'NO', '', 'Los Andes Nº 1866', '', '30390485', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00497', 'SALVADOR ESTEBAN', 'DURE', '7', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00498', 'PABLO DANIEL', 'GONZALEZ', '29', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00499', 'JAVIER', 'JEZIORSKY', '8', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00500', 'JORGE LUIS', 'GALLARDO', '43', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00501', 'ALEJANDRO ARIEL', 'RUIZ', '50', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00502', 'JUAN', 'GUZMAN', '43', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00503', 'ALEJANDRO', 'MARTINEZ', '43', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00504', 'MATIAS', 'ORZO', '50', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00505', 'GUILLERMO', 'RUIZ', '50', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00506', 'EZEQUIEL MAXIMILIANO', 'LOPEZ', '41', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00507', 'JONATHAN ENRIQUE', 'BEHERAN', '19', 'NO', 'NO', '', '', '', '36363284', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00508', 'JONATHAN IVAN', 'LEZCANO', '9', 'NO', 'NO', '', '', '', '37388234', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00509', 'WALTER', 'RUIZ DIAZ', '19', 'NO', 'NO', '', '', '', '35801617', '01-01-1980', '', 1 ) ; 
+/
+INSERT INTO SOCIOS (idsocio, nombre, apellido, idempresa, grupofamiliar, clubporve, telefono, direccion, mail, dni, fechanac, flia, activado) VALUES (  '00510', 'MATIAS', 'MARTINEZ', '7', 'NO', 'NO', '', '', '', '00000000', '01-01-1980', '', 1 ) ; 
+/

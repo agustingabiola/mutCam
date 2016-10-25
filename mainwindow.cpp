@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget *parent)
                       ,ui(new Ui::MainWindow){
     ui->setupUi(this);
     BD::conexion();
-    //BD::crearTablas();
+//    BD::crearTablas();
     inicPilaWidgets();
     checarSiHayempresas();
     QMessageBox::information(this, "Recordatorio!"

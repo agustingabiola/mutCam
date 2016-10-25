@@ -1,0 +1,2 @@
+INSERT INTO CIERRES (fechainicio, fechafinal, idempresa) VALUES (TO_DATE('29-09-2015','dd-MM-yyyy'), TO_DATE('29-09-2015','dd-MM-yyyy'),-1); 
+/

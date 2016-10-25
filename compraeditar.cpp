@@ -42,7 +42,7 @@ void CompraEditar::conectarCheckBoxes(){
     connect(ui->checkBoxNumSocio, SIGNAL(stateChanged(int)), this, SLOT(todosChequeados()));
     connect(ui->checkBoxPrestador, SIGNAL(stateChanged(int)), this, SLOT(todosChequeados()));
     connect(ui->checkBoxTipo, SIGNAL(stateChanged(int)), this, SLOT(todosChequeados()));
-    connect(ui->checkBoxObservaciones, SIGNAL(stateChanged(int)), this, SLOT(todosChequeados()));
+    connect(ui->lineEditObservaciones, SIGNAL(textChanged(QString)), this, SLOT(fieldEdited()));
     connect(ui->lineEditMonto, SIGNAL(textChanged(QString)), this, SLOT(fieldEdited()));
     connect(ui->lineEditMontoDec, SIGNAL(textChanged(QString)), this, SLOT(fieldEdited()));
     connect(ui->spinBox, SIGNAL(valueChanged(QString)), this, SLOT(fieldEdited()));
